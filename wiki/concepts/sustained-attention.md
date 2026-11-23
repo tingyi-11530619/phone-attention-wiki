@@ -27,4 +27,4 @@ en: sustained attention
 
 ## 相關頁面
 
-- [[working-memory]]、[[brain-drain-effect]]、[[phone-presence-reduces-cognition]]
+- [[cognitive-capacity]]、[[working-memory]]、[[brain-drain-effect]]、[[phone-presence-reduces-cognition]]

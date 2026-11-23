@@ -27,7 +27,7 @@ updated: 2026-11-23
 - 【評論】**可能是反過來**：追蹤研究（longitudinal study）顯示，原本就有心理健康問題的青少年，使用社群媒體的方式和頻率不同（[[odgers-2024]], p. 29: "mental-health problems use such platforms more often or in different ways from their healthy peers"）
 - 【評論】心理疾病的成因很複雜，遺傳和環境因素都有（[[odgers-2024]], p. 29: "are driven by a complex set of genetic and environmental factors"）
 - 【評論】有負面後果，不等於是成癮（[[panova-2018]], p. 257: "negative consequences is not the same as the existence of addiction"）。見 [[is-smartphone-addiction-real]]。
-- **作者對其他研究的描述，wiki 尚未收錄**：Odgers 提到，多篇統合分析（meta-analysis）和系統性回顧（systematic review）的結論一致（[[odgers-2024]], p. 29: "Several meta-analyses and systematic reviews converge on the same message"）。
+- 【評論】**作者對其他研究的描述，wiki 尚未收錄**：Odgers 提到，多篇統合分析（meta-analysis）和系統性回顧（systematic review）的結論一致（[[odgers-2024]], p. 29: "Several meta-analyses and systematic reviews converge on the same message"）。
 
 ## 為什麼「兩條線一起上升」不能當證據
 
@@ -35,14 +35,15 @@ updated: 2026-11-23
 
 ## 兩件事可以同時成立
 
-- **沒有證據顯示是元兇**（[[odgers-2024]], p. 30: "there is no evidence that using these platforms is rewiring children's brains or driving an epidemic of mental illness"）
-- **但平台仍然需要改革**（[[odgers-2024]], p. 30: "considerable reforms to these platforms are required, given how much time young people spend on them"）
+- 【評論】**沒有證據顯示是元兇**（[[odgers-2024]], p. 30: "there is no evidence that using these platforms is rewiring children's brains or driving an epidemic of mental illness"）
+- 【評論】**但平台仍然需要改革**（[[odgers-2024]], p. 30: "considerable reforms to these platforms are required, given how much time young people spend on them"）
 
 ## 目前怎麼看
 
 > 以下是本 wiki 的整理，不是任何一篇論文的結論。
 
 - **兩方的說法不完全衝突。** [[nguyen-2025]] 找到的是「弱的相關」；Odgers 說大部分研究是「沒有、很小或不一致的關聯」。兩者都同意有一些關聯，但都不足以支持「元兇」這麼強的說法。
+- **[[goodyear-2025]] 和 Odgers 的描述有落差。** 這篇在平日、週末和一整週的各個測量時段，都發現使用時間和心理健康較差有一致的關聯，這和 Odgers「結果不一」的描述不同。但它是橫斷面研究，作者自己也表示不能排除反向因果，所以它同樣只能說明「有關聯」，不能說明手機是元兇。兩者可能的差異來源：Odgers 說的是整體研究文獻，這篇是英國一群中學生的單一研究。
 - **目前缺少的是因果證據。** 現有證據大多是相關研究，能說明「一起出現」，但不能說明「誰造成誰」。
 - **證據的類型要注意**：反對方的主要論點來自兩篇評論（[[odgers-2024]] 是書評，[[panova-2018]] 是立場性評論），它們引用的研究，wiki 大多沒有收錄；支持關聯的統合分析（[[nguyen-2025]]）只有摘要，[[goodyear-2025]] 有全文，但它是橫斷面研究，同樣只能說明「有關聯」。整體來說，wiki 對這個問題的證據基礎還很薄，**特別是缺少因果證據**。
 - 另外，[[goodyear-2025]] 也發現，學校限制手機並沒有讓學生的心理健康變好，見 [[school-phone-bans]]。

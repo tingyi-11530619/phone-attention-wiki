@@ -39,7 +39,7 @@ LINK_RE = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]")
 CITE_RE = re.compile(r"\[\[([a-z0-9-]+)(?:\|[^\]]*)?\]\],\s*([^:\n\"]{1,40}?):\s*[\"“]([^\"”\n]+)[\"”]")
 NUM_RE = re.compile(r"(?<![\w.])(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?|(?<![\w.])\.\d+")
 QUERY_BANNER = "【問答產生】"
-LOG_HEAD_RE = re.compile(r"^## \[(\d{4}-\d{2}-\d{2})\] (ingest|query|lint|setup) \| (.+?)\s*$")
+LOG_HEAD_RE = re.compile(r"^## \[(\d{4}-\d{2}-\d{2})\] (ingest|query|lint|setup|write) \| (.+?)\s*$")
 
 
 # ---------------------------------------------------------------- 資料結構
@@ -274,12 +274,14 @@ def check_format(pages, by_slug, rep: Report) -> None:  # 第 8 項
         # [[slug|顯示文字]] 換成顯示文字；[[slug]] 移除（slug 是英文，不影響中文比對）
         body = LINK_RE.sub(lambda m: m.group(0)[2:-2].split("|", 1)[1] if "|" in m.group(0) else "", p.body)
         body = re.sub(r"【[^】\n]*】", "", body)  # 研究設計標籤是固定格式，不算「第一次出現」
+        body = re.sub(r"(?m)^#{2,6} .*$", "", body)  # 小標題不算；H1 保留（概念頁的 H1 本身就附英文）
         for zh, en in terms:
             i = body.find(zh)
             if i < 0:
                 continue
-            after = body[i + len(zh): i + len(zh) + len(en) + 4]
-            if not re.match(r"\s*[（(]\s*" + re.escape(en) + r"\s*[）)]", after, re.I):
+            after = body[i + len(zh): i + len(zh) + len(en) + 40]
+            # 括號內「包含」英文名稱即可，例如「可用的認知容量（available cognitive capacity）」
+            if not re.match(r"\s*[（(][^）)\n]*" + re.escape(en) + r"[^）)\n]*[）)]", after, re.I):
                 rep.warn(8, f"`{p.rel}`：「{zh}」第一次出現時沒有附英文（{en}）")
 
 
@@ -316,7 +318,7 @@ def check_index_log(pages, by_slug, rep: Report) -> None:  # 第 7 項
         if ln.startswith("## "):
             m = LOG_HEAD_RE.match(ln)
             if not m:
-                rep.err(7, f"`wiki/log.md` 第 {log.body_start + n} 行：標題格式不符 `## [YYYY-MM-DD] <ingest|query|lint|setup> | <對象>`")
+                rep.err(7, f"`wiki/log.md` 第 {log.body_start + n} 行：標題格式不符 `## [YYYY-MM-DD] <ingest|query|lint|setup|write> | <對象>`")
                 continue
             heads.append(n)
             for t in re.split(r"[,、]\s*", m.group(3)):
@@ -447,7 +449,7 @@ def write_report(section: str) -> None:
     today = dt.date.today().isoformat()
     REPORT.write_text(
         f"# Lint 報告 {today}\n\n{section}\n"
-        "## AI 審查（L2）\n\n（待 AI 審查第 1、1b、3、4、6、8b、12 項）\n\n"
+        "## AI 審查（L2）\n\n（待 AI 審查第 1、1b、1c、1d、3、4、6、8b、12 項）\n\n"
         "## 已直接修正（L3）\n\n（尚未修正）\n\n"
         "## 待使用者確認\n\n（待整理）\n",
         encoding="utf-8")

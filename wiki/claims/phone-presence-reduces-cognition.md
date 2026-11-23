@@ -10,7 +10,7 @@ updated: 2026-11-23
 
 ## 簡短回答
 
-**目前證據不一致。** 一個大學生的實驗發現，手機靜音放在桌上時，記憶和推理測驗的分數會**稍微**低一點；但後來一個刻意讓效果更容易出現的重複驗證（replication）研究，**沒有**找到這個效果。而且就算在原始研究中，受影響的也是「大腦能同時處理多少東西」（認知容量，cognitive capacity），**不是**「能不能專心」（專注力）。
+**目前證據不一致。** 一個大學生的實驗發現，手機靜音放在桌上時，記憶和推理測驗的分數會**稍微**低一點；但後來一個刻意讓效果更容易出現的重複驗證（replication）研究，**沒有**找到這個效果。而且就算在原始研究中，受影響的也是「大腦能同時處理多少東西」，也就是認知容量（cognitive capacity），**不是**「能不能專心」（專注力）。
 
 ## 先分清楚：認知容量 ≠ 專注力
 
@@ -32,7 +32,7 @@ updated: 2026-11-23
 
 - 【重複驗證】先讓參與者戒用手機 5 小時，刻意讓手機更顯眼，再比較「關機放旁邊」和「放另一個房間」，結果沒有出現腦力流失效應（brain drain effect）（[[pileggi-2025]], Abstract: "Although abstinence was found to increase over time, the results showed no Brain Drain effect"）（僅根據摘要）
 - 【重複驗證】作者的結論是，就算刻意強調手機的存在，效應也沒有出現（[[pileggi-2025]], Abstract: "This effect therefore does not appear to occur even when the salience of the device is emphasized through abstinence"）（僅根據摘要）
-- **作者對其他研究的描述，wiki 尚未收錄**：[[pileggi-2025]] 的作者提到，過去嘗試重複這個效應的研究大多數沒有找到效果（[[pileggi-2025]], Abstract: "researchers have attempted to replicate this effect, with null results in most cases"）（僅根據摘要）
+- 【重複驗證】**作者對其他研究的描述，wiki 尚未收錄**：[[pileggi-2025]] 的作者提到，過去嘗試重複這個效應的研究大多數沒有找到效果（[[pileggi-2025]], Abstract: "researchers have attempted to replicate this effect, with null results in most cases"）（僅根據摘要）
 
 ## 不在這個主張範圍內的發現
 

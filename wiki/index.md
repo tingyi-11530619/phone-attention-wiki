@@ -13,7 +13,7 @@ updated: 2026-11-23
 
 「成癮」一詞在研究上有爭議，見 [[is-smartphone-addiction-real]]。
 
-**先讀這個：** 「認知容量」（大腦能同時處理多少）和「專注力」（能不能持續盯著一件事）是兩回事，研究結果常常只涉及其中一個。見 [[brain-drain-effect]]。
+**先讀這個：** 「認知容量」（大腦能同時處理多少）和「專注力」（能不能持續盯著一件事）是兩回事，研究結果常常只涉及其中一個。見 [[cognitive-capacity]]、[[brain-drain-effect]]。
 
 ## 常見問題（faq）
 
@@ -31,6 +31,7 @@ updated: 2026-11-23
 
 ## 概念（concepts）
 
+- [[cognitive-capacity]]：認知容量，大腦能同時處理多少東西（≠ 專注力）
 - [[brain-drain-effect]]：腦力流失效應，手機在旁邊可能佔用認知容量的假說
 - [[working-memory]]：工作記憶，大腦的「工作桌」
 - [[fluid-intelligence]]：流體智力，面對新問題時的推理能力

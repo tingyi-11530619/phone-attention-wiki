@@ -14,10 +14,10 @@ updated: 2026-11-23
 
 ## 「手機成癮」這個詞為什麼有爭議？
 
-- **「成癮」在醫學上是很嚴重的狀態**，會對身心健康造成嚴重影響（[[panova-2018]], p. 252: "Addiction is a disorder with severe effects on physical and psychological health"）。
-- **截至該評論發表時，診斷手冊裡沒有手機成癮**（[[panova-2018]], p. 252: "no mention has been made of smartphone addiction in either the DSM-5 or in the ICD-11's draft"）。
-- **研究上也沒有統一的診斷標準**（[[panova-2018]], p. 253: "there is not a strict set of standardized criteria applied to the diagnosis of smartphone addicts"）。
-- 因此作者建議，學術上改用「問題性使用」這類用詞（[[panova-2018]], p. 256: "the authors propose seeking a different term to associate with this problem in the academic literature, such as problematic use"）。
+- 【評論】**「成癮」在醫學上是很嚴重的狀態**，會對身心健康造成嚴重影響（[[panova-2018]], p. 252: "Addiction is a disorder with severe effects on physical and psychological health"）。
+- 【評論】**截至該評論發表時，診斷手冊裡沒有手機成癮**（[[panova-2018]], p. 252: "no mention has been made of smartphone addiction in either the DSM-5 or in the ICD-11's draft"）。
+- 【評論】**研究上也沒有統一的診斷標準**（[[panova-2018]], p. 253: "there is not a strict set of standardized criteria applied to the diagnosis of smartphone addicts"）。
+- 【評論】因此作者建議，學術上改用「問題性使用」這類用詞（[[panova-2018]], p. 256: "the authors propose seeking a different term to associate with this problem in the academic literature, such as problematic use"）。
 
 本 wiki 的用詞：描述研究時用「問題性手機使用」或手機依賴（smartphone dependence），只有在說明這個爭議時才用「手機成癮」。見 [[problematic-smartphone-use]]、[[smartphone-dependence]]。
 
@@ -32,7 +32,7 @@ updated: 2026-11-23
 ## 支持「是成癮」的證據
 
 - 目前 wiki 中還沒有。
-- [[panova-2018]] 提到，這個領域大多數研究**預設**手機會成癮，或把手機成癮的存在視為理所當然（[[panova-2018]], p. 252: "the majority of research in the field declares that smartphones are addictive or takes the existence of smartphone addiction as granted"）。這是作者對其他研究的描述，wiki 尚未收錄那些研究。
+- 【評論】[[panova-2018]] 提到，這個領域大多數研究**預設**手機會成癮，或把手機成癮的存在視為理所當然（[[panova-2018]], p. 252: "the majority of research in the field declares that smartphones are addictive or takes the existence of smartphone addiction as granted"）。這是作者對其他研究的描述，wiki 尚未收錄那些研究。
 
 ## 「有多少人手機成癮？」為什麼沒有答案
 

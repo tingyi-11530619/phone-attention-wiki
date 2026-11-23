@@ -38,5 +38,5 @@ en: brain drain effect
 
 ## 相關頁面
 
-- [[working-memory]]、[[fluid-intelligence]]、[[sustained-attention]]、[[smartphone-dependence]]
+- [[cognitive-capacity]]、[[working-memory]]、[[fluid-intelligence]]、[[sustained-attention]]、[[smartphone-dependence]]
 - [[phone-presence-reduces-cognition]]、[[phone-face-down-or-off]]

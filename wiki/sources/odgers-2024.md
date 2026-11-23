@@ -25,7 +25,7 @@ n: 未載明（書評，不適用）
 
 ## 研究問題
 
-Haidt 在書中主張，社群媒體和手機是青少年心理健康危機的主因。這個說法有證據支持嗎？
+根據 Odgers 的轉述，Haidt 在書中主張數位科技正在重塑孩子的大腦、造成心理疾病流行（[[odgers-2024]], p. 29: "digital technologies are rewiring our children's brains and causing an epidemic of mental illness"），並把矛頭指向社群媒體（[[odgers-2024]], p. 29: "the bold proposal that social media is to blame"）。這個說法有證據支持嗎？
 
 > Haidt 的主張在本 wiki 中只能透過 Odgers 的轉述得知，原書不在 `raw/` 裡。例如 Odgers 引述 Haidt 的說法：科技公司設計了大量會讓人上癮的內容（[[odgers-2024]], p. 29: "designing a firehose of addictive content that entered through kids' eyes and ears"）。
 
