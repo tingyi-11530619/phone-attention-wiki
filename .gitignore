@@ -1,0 +1,6 @@
+# 原始資料和抽出的全文不進 git（版權和檔案大小的考量）。來源清單見 sources-list.md。
+raw/
+raw-text/
+
+__pycache__/
+*.pyc
