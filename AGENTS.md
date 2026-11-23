@@ -52,7 +52,7 @@ wiki/
   entities/   人物、機構、量表頁 type: entity
   faq/        常見問題頁  type: faq
 outputs/      產出（不是知識來源）
-scripts/      extract_text.py、lint.py
+scripts/      extract_text.py、lint.py、check_odgers.py（odgers-2024 專用：確認短引不在 de Rham 那篇的範圍內）
 lint-report.md
 ```
 
