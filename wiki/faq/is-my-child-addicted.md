@@ -30,7 +30,7 @@ updated: 2026-11-23
 **使用時間長，和睡眠、心情較差有關，但不一定是手機造成的**
 - 【相關性研究｜英國 12–15 歲中學生 N=1227】用手機和社群媒體的時間越長，睡眠越差（[[goodyear-2025]], p. 9: "Increased smartphone and social media time was associated with reduced sleep efficiency and sleep duration"），焦慮、憂鬱和問題性社群媒體使用（problematic social media use）也越高（[[goodyear-2025]], p. 8: "Increases in smartphone and social media time were associated with increases in anxiety, depression and problematic social media use across all measurement periods"）
 - 但作者表示，這是橫斷面研究（cross-sectional study），不能排除反向因果（[[goodyear-2025]], p. 12: "the study design is cross sectional which makes it difficult to draw conclusions about causality and reverse causality cannot be ruled out"）
-- 【評論】也有學者指出，可能是原本就有心理困擾的青少年，使用社群媒體的方式和頻率不同（[[odgers-2024]], p. 29: "mental-health problems use such platforms more often or in different ways from their healthy peers"）
+- 【評論】一篇書評也指出，可能是原本就有心理困擾的青少年，比同齡人更常使用社群媒體，或使用方式不同（[[odgers-2024]], p. 29: "mental-health problems use such platforms more often or in different ways from their healthy peers"）
 - 詳見 [[phone-social-media-mental-health]]、[[correlation-vs-causation]]
 
 ## 研究還不知道的事

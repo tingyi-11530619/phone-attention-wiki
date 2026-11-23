@@ -221,7 +221,7 @@ G8 兩個版本都沒有退回 G5。排版上的調整都在 G7 完成：第一�
 
 | # | 事項 | 我的建議 |
 |---|---|---|
-| H | **卡片 c20 的「方式和頻率不同」也是從 wiki 繼承來的連接詞錯誤。** 原文是 "more often **or** in different ways"（「用得比較多，或用法不同」），wiki 的 [[phone-social-media-mental-health]] 和 [[odgers-2024]] 都寫成「方式和頻率不同」。slide-12 已經照英文原文寫成「或」，但卡片和 wiki 還是錯的。這和 E 是同一類問題：方向對，但細節被改寫 | 經你同意後，用處理 E 的方式從 wiki 改起，把「和」改成「或」；slide-12 已經是對的，不用改 |
+| H | **卡片 c20 的「方式和頻率不同」也是從 wiki 繼承來的連接詞錯誤。** 原文是 "more often **or** in different ways"（「用得比較多，或用法不同」），wiki 的 [[phone-social-media-mental-health]] 和 [[odgers-2024]] 都寫成「方式和頻率不同」。slide-12 已經照英文原文寫成「或」，但卡片和 wiki 還是錯的。這和 E 是同一類問題：方向對，但細節被改寫 | **已處理**（使用者同意）：wiki 從源頭改成「可能比健康的同齡人更常使用社群媒體，或使用方式不同」（4 處），c20 同步更新；slide-12 不用改，G3、G6 (a)、G7 重跑通過。同時對 wiki 做了量詞和連接詞的全面掃描，並在 AGENTS.md 新增 lint 3b，見 wiki/log.md |
 
 ### F：slide-08 的標題斷行
 

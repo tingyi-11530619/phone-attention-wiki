@@ -10,7 +10,7 @@ updated: 2026-11-23
 
 ## 簡短回答
 
-**目前沒有足夠的證據說它們是元兇。** 研究確實發現，使用量和心理健康較差之間有**弱的**相關，但相關不等於因果（correlation is not causation）：可能是原本就有困擾的青少年，使用的方式和頻率不同。同時，「不是元兇」和「平台需要改革」可以同時成立。
+**目前沒有足夠的證據說它們是元兇。** 研究確實發現，使用量和心理健康較差之間有**弱的**相關，但相關不等於因果（correlation is not causation）：可能是原本就有困擾的青少年用得比較多，或用法不同。同時，「不是元兇」和「平台需要改革」可以同時成立。
 
 ## 支持「有關聯」的證據
 
@@ -24,7 +24,7 @@ updated: 2026-11-23
 
 - 【評論】「數位科技重塑孩子大腦、造成心理疾病流行」的說法沒有科學支持（[[odgers-2024]], p. 29: "the book's repeated suggestion that digital technologies are rewiring our children's brains and causing an epidemic of mental illness is not supported by science"）
 - 【評論】研究找到的結果有好幾種：沒有關聯、關聯很小、結果不一致都有（[[odgers-2024]], p. 29: "Our efforts have produced a mix of no, small and mixed associations"），而且大多是相關研究（[[odgers-2024]], p. 29: "Most data are correlative"）
-- 【評論】**可能是反過來**：追蹤研究（longitudinal study）顯示，原本就有心理健康問題的青少年，使用社群媒體的方式和頻率不同（[[odgers-2024]], p. 29: "mental-health problems use such platforms more often or in different ways from their healthy peers"）
+- 【評論】**可能是反過來**：追蹤研究（longitudinal study）顯示，原本就有心理健康問題的青少年，可能比健康的同齡人更常使用社群媒體，或使用方式不同（[[odgers-2024]], p. 29: "mental-health problems use such platforms more often or in different ways from their healthy peers"）
 - 【評論】心理疾病的成因很複雜，遺傳和環境因素都有（[[odgers-2024]], p. 29: "are driven by a complex set of genetic and environmental factors"）
 - 【評論】有負面後果，不等於是成癮（[[panova-2018]], p. 257: "negative consequences is not the same as the existence of addiction"）。見 [[is-smartphone-addiction-real]]。
 - 【評論】**作者對其他研究的描述，wiki 尚未收錄**：Odgers 提到，多篇統合分析（meta-analysis）和系統性回顧（systematic review）的結論一致（[[odgers-2024]], p. 29: "Several meta-analyses and systematic reviews converge on the same message"）。

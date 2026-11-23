@@ -97,3 +97,35 @@
 | 6 | 缺 `cognitive-capacity` 概念頁 | 建議新增；`mental-wellbeing` 可以等之後再說 |
 | 12 | 8 行證據缺研究設計標籤 | 補上標籤；並新增規則：「目前怎麼看」和「相關但沒有直接測試的研究」裡的引用可以免標 |
 | 其他 | log 的類型只有 ingest、query、lint、setup，寫 FAQ 不屬於任何一種，這次暫時記成 `setup` | 新增 `write` 類型，用於非 ingest 的寫作（FAQ、新的概念頁）；lint.py 的 log 標題格式也要同步更新 |
+
+## 3b 全面掃描：量詞與連接詞忠實度（2026-11-23，使用者指示）
+
+方法：用 scratchpad 腳本把每個「中文轉述＋所引英文短引」配對列出來，標出量詞（大部分、多數、全部、都、一致、主要等）或連接詞（和／或）不對應的地方，共 48 處候選；再逐一和 `raw-text/` 的原文前後文對照判讀。
+
+### 會誤導，已直接修（使用者授權）
+
+| # | 位置 | 問題 | 修正 |
+|---|---|---|---|
+| 3b-A | [[phone-social-media-mental-health]] 簡短回答、「反對」一節；[[odgers-2024]] 主要發現 4；[[is-my-child-addicted]]（共 4 處） | "more often **or** in different ways" 寫成「方式**和**頻率不同」（連接詞改寫，也漏掉「比健康的同齡人更常」的方向）。FAQ 那一行還把一篇書評寫成「也有學者指出」 | 改成「可能比健康的同齡人更常使用社群媒體，或使用方式不同」；FAQ 改成「一篇書評也指出」 |
+| 3b-B | [[is-smartphone-addiction-real]]「有多少人手機成癮」一節 | 「**主要原因**是**每個**研究的定義和切分點都不一樣」：原文 p. 253 列出 0%–35% 的範圍，p. 255 在另一段列出各研究方法不一致的問題，**沒有說這是範圍差異的主要原因**；「每個……都」也比 "lack of consistency across studies" 強 | 改成「作者也在另一段指出，各研究在方法、定義、測量方式、切分點和診斷標準上並不一致」 |
+| 3b-C | [[odgers-2024]] 主要發現 4 | "not that social-media use **predicts or causes** depression" 只寫成「不是『社群媒體造成憂鬱』」，漏掉「預測」，讀者可能以為只是「能預測但不是因果」 | 改成「不是『使用社群媒體能預測或造成憂鬱』」 |
+
+修正後：L1 錯誤 0 個、警告 0 個；`check_odgers.py` 35 句全部通過。
+
+### 輕微，沒有修（待使用者決定）
+
+| # | 位置 | 問題 |
+|---|---|---|
+| 3b-D | [[panova-2018]] 主要發現 5；[[is-smartphone-addiction-real]]「反對」一節 | 「研究**大多**是在健康的人身上做篩檢問卷」：所引短引沒有「大多」。原文是「症狀是在健康的人身上的篩檢和相關研究中找到的，不是臨床樣本」，意思其實更強（不是「大多」）。主張頁那一行所附的短引（篩檢工具不能診斷）也不支持這半句 |
+| 3b-E | [[odgers-2024]]「作者對其他研究的描述」 | "no consistent **or measurable** associations" 只寫成「沒有一致的關聯」，比原文弱 |
+| 3b-F | [[goodyear-2025]] 主要發現 2 | 「使用時間都沒有差別」：原文是「限制型學校的使用時間中位數比較高，但**調整後的模型**差異不顯著」，wiki 沒寫出「調整後」 |
+| 3b-G | [[problematic-smartphone-use]] | 「**很多**被叫做手機成癮的行為」：原文是 "The behaviors observed in the research"，沒有「很多」 |
+| 3b-H | [[where-to-put-phone-when-studying]]「還不知道的事」 | 「研究**都**是在實驗室裡做的」：所引短引只涵蓋 ward-2017 |
+
+### 判讀為沒問題的（舉例）
+
+- 「翻面和關機……可能沒有用」對 "face down or turning it off are likely futile"：英文的 or 在這裡是「兩者都」，意思相同
+- 「依年齡限制或禁止手機……可能沒效」對 "restrictions and bans ... unlikely to be effective"：兩種做法各自都可能沒效，意思相同
+- 「診斷手冊裡沒有」對 "in either the DSM-5 or in the ICD-11"：否定句的 either…or，就是兩本都沒有
+- 「大多數人（75.9%）認為……完全不影響」：「完全」對應原文的選項 "not at all"
+- 「只有少數幾所」：原文 n = 4

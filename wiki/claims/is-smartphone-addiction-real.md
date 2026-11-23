@@ -38,7 +38,7 @@ updated: 2026-11-23
 
 > 以下是作者對其他研究的描述，wiki 尚未收錄那些研究。
 
-各研究估計出來的比例差異非常大（[[panova-2018]], p. 253: "screening studies estimate that smartphone addiction ranges from anywhere between just above 0% and 35%"）。主要原因是**每個研究的定義和切分點都不一樣**（[[panova-2018]], p. 255: "there is a lack of consistency in methodology, definitions, measurement, cut-off scores, and diagnostic criteria across studies"）。
+各研究估計出來的比例差異非常大（[[panova-2018]], p. 253: "screening studies estimate that smartphone addiction ranges from anywhere between just above 0% and 35%"）。作者也在另一段指出，各研究在**方法、定義、測量方式、切分點和診斷標準上並不一致**（[[panova-2018]], p. 255: "there is a lack of consistency in methodology, definitions, measurement, cut-off scores, and diagnostic criteria across studies"）。
 
 所以看到「某某比例的人手機成癮」時，那個數字主要反映的是**用了哪一份問卷、切分點設在哪裡**，不是真正被醫師診斷的人數，也不能拿來和其他研究的數字比較。
 
