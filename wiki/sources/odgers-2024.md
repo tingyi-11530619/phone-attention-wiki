@@ -38,7 +38,7 @@ Haidt 在書中主張，社群媒體和手機是青少年心理健康危機的�
 1. **書中的核心主張沒有科學支持**（[[odgers-2024]], p. 29: "the book's repeated suggestion that digital technologies are rewiring our children's brains and causing an epidemic of mental illness is not supported by science"）
 2. **兩條趨勢線一起上升，不代表因果。** Haidt 在書中用圖表呈現「科技使用」和「青少年心理健康問題」一起上升（[[odgers-2024]], p. 29: "Haidt supplies graphs throughout the book showing that digital-technology use and adolescent mental-health problems are rising together"）。作者說，她在統計課上會畫類似的兩條線（[[odgers-2024]], p. 29: "I draw similar lines on a board that seem to connect two disparate phenomena"），學生幾分鐘內就會開始編故事，解釋兩者為什麼有關（[[odgers-2024]], p. 29: "Within minutes, the students usually begin telling elaborate stories about how the two phenomena are related"）。她認為這些圖正好可以拿來教學生，不要只看趨勢線就編故事（[[odgers-2024]], p. 29: "how to avoid making up stories by simply looking at trend lines"）
 3. **大部分研究的結果是：沒有、很小，或不一致的關聯**（[[odgers-2024]], p. 29: "Our efforts have produced a mix of no, small and mixed associations"），而且大多是相關研究（[[odgers-2024]], p. 29: "Most data are correlative"）
-4. **可能是反過來。** 作者說，追蹤研究找到的關聯顯示的不是「社群媒體造成憂鬱」（[[odgers-2024]], p. 29: "they suggest not that social-media use predicts or causes depression, but that young people who already have"），而是原本就有心理健康問題的青少年，使用社群媒體的方式和頻率不同（[[odgers-2024]], p. 29: "mental-health problems use such platforms more often or in different ways from their healthy peers"）
+4. **可能是反過來。** 作者說，追蹤研究（longitudinal study）找到的關聯顯示的不是「社群媒體造成憂鬱」（[[odgers-2024]], p. 29: "they suggest not that social-media use predicts or causes depression, but that young people who already have"），而是原本就有心理健康問題的青少年，使用社群媒體的方式和頻率不同（[[odgers-2024]], p. 29: "mental-health problems use such platforms more often or in different ways from their healthy peers"）
 5. **心理疾病的成因很複雜**，遺傳和環境因素都有（[[odgers-2024]], p. 29: "are driven by a complex set of genetic and environmental factors"）
 6. **兩件事可以同時成立**：沒有證據顯示社群媒體造成心理疾病流行（[[odgers-2024]], p. 30: "there is no evidence that using these platforms is rewiring children's brains or driving an epidemic of mental illness"）；**但是**，考量青少年花在平台上的時間，平台仍然需要大幅改革（[[odgers-2024]], p. 30: "considerable reforms to these platforms are required, given how much time young people spend on them"）
 
@@ -46,7 +46,7 @@ Haidt 在書中主張，社群媒體和手機是青少年心理健康危機的�
 
 > 以下是作者對其他研究的描述，wiki 尚未收錄那些研究。
 
-- 多篇統合分析（meta-analysis）和系統性回顧的結論一致（[[odgers-2024]], p. 29: "Several meta-analyses and systematic reviews converge on the same message"）
+- 多篇統合分析（meta-analysis）和系統性回顧（systematic review）的結論一致（[[odgers-2024]], p. 29: "Several meta-analyses and systematic reviews converge on the same message"）
 - 一項跨國分析沒有發現社群媒體普及和幸福感之間有一致的關聯（[[odgers-2024]], p. 29: "shows no consistent or measurable associations between well-being and the roll-out of social media globally"）
 - 美國一項大型的青少年腦發展追蹤研究，沒有發現和數位科技使用有關的劇烈變化（[[odgers-2024]], p. 29: "has found no evidence of drastic changes associated with digital-technology use"）
 

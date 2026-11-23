@@ -40,7 +40,7 @@ updated: 2026-11-23
 
 ## 相關但沒有直接測試的研究
 
-- [[ward-2017]] 的作者在討論段落推論，教室裡有手機可能妨礙學習（[[ward-2017]], p. 151: "mobile devices in educational environments may undermine both learning and test performance"）。但這只是推論，這篇研究測的是大學生在實驗室裡的認知容量，沒有測學習成效或學校政策；而且它的主要結果後來沒有被重現，見 [[phone-presence-reduces-cognition]]。所以它**不能**當成支持或反對學校禁手機的證據。
+- [[ward-2017]] 的作者在討論段落推論，教室裡有手機可能妨礙學習（[[ward-2017]], p. 151: "mobile devices in educational environments may undermine both learning and test performance"）。但這只是推論，這篇研究測的是大學生在實驗室裡的認知容量（cognitive capacity），沒有測學習成效或學校政策；而且它的主要結果後來沒有被重現，見 [[phone-presence-reduces-cognition]]。所以它**不能**當成支持或反對學校禁手機的證據。
 
 ## 目前怎麼看
 

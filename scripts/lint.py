@@ -447,7 +447,7 @@ def write_report(section: str) -> None:
     today = dt.date.today().isoformat()
     REPORT.write_text(
         f"# Lint 報告 {today}\n\n{section}\n"
-        "## AI 審查（L2）\n\n（待 AI 審查第 1、3、4、6、12 項）\n\n"
+        "## AI 審查（L2）\n\n（待 AI 審查第 1、1b、3、4、6、8b、12 項）\n\n"
         "## 已直接修正（L3）\n\n（尚未修正）\n\n"
         "## 待使用者確認\n\n（待整理）\n",
         encoding="utf-8")

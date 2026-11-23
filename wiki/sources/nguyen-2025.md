@@ -19,7 +19,7 @@ n: 98,299（71 篇研究）
 
 ## 一句話摘要
 
-這篇統合分析（meta-analysis）整理了大量研究，發現**短影音看得越多的人，認知表現和心理健康越差**。但這是相關（correlation），不能說是短影音**造成**的，見 [[correlation-vs-causation]]。
+這篇統合分析（meta-analysis）整理了大量研究，發現**短影音（short-form video）看得越多的人，認知表現和心理健康越差**。但這是相關（correlation），不能說是短影音**造成**的，見 [[correlation-vs-causation]]。
 
 ## 研究問題
 
@@ -27,8 +27,8 @@ n: 98,299（71 篇研究）
 
 ## 研究設計與對象
 
-- 【統合分析｜青少年與成人 k=71 N=98,299】系統性回顧加統合分析，合併了 71 篇研究的資料（[[nguyen-2025]], Abstract: "This systematic review and meta-analytic investigation comprised data from 98,299 participants across 71 studies"）（僅根據摘要）
-- 納入的研究是橫斷面還是追蹤研究、認知和注意力是用問卷還是作業測量：**摘要都沒有寫**。
+- 【統合分析｜青少年與成人 k=71 N=98,299】系統性回顧（systematic review）加統合分析，合併了 71 篇研究的資料（[[nguyen-2025]], Abstract: "This systematic review and meta-analytic investigation comprised data from 98,299 participants across 71 studies"）（僅根據摘要）
+- 納入的研究是橫斷面還是追蹤研究（longitudinal study）、認知和注意力是用問卷還是作業測量：**摘要都沒有寫**。
 
 ## 主要發現：認知
 
@@ -36,7 +36,7 @@ n: 98,299（71 篇研究）
 2. **注意力和抑制控制（inhibitory control）的相關最強**：注意力 r = -.38，抑制控制 r = -.41（[[nguyen-2025]], Abstract: "with attention (r = -.38) and inhibitory control (r = -.41) yielding the strongest associations"）（僅根據摘要）
 3. **研究集中在少數領域。** 注意力和抑制控制以外的認知能力（例如記憶、推理），研究還很少（[[nguyen-2025]], Abstract: "Relatively few studies examined cognitive domains beyond attention and inhibitory control (e.g., memory, reasoning)"）（僅根據摘要）
 
-**r 值的白話說明**：r 是相關係數，範圍從 -1 到 1。負數代表「一個越多，另一個越少」。數字越接近 0，關聯越弱。r 值只能說明兩件事「一起變動」，不能說明誰影響誰。
+**r 值的白話說明**：r 是相關係數（correlation coefficient），範圍從 -1 到 1。負數代表「一個越多，另一個越少」。數字越接近 0，關聯越弱。r 值只能說明兩件事「一起變動」，不能說明誰影響誰。
 
 ## 主要發現：心理健康
 

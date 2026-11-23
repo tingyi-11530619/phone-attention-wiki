@@ -10,7 +10,7 @@ updated: 2026-11-23
 
 ## 簡短回答
 
-在一個大學生的實驗裡，把手機**翻面**或**關機**，認知測驗的分數並沒有比較好；只有把手機**放到另一個房間**，分數才明顯比較高。不過這個結論的前提，是「手機在旁邊真的會影響認知容量」，而這點目前證據還不多，見 [[phone-presence-reduces-cognition]]。
+在一個大學生的實驗裡，把手機**翻面**或**關機**，認知測驗的分數並沒有比較好；只有把手機**放到另一個房間**，分數才明顯比較高。不過這個結論的前提，是「手機在旁邊真的會影響認知容量（cognitive capacity）」，而這點目前證據還不多，見 [[phone-presence-reduces-cognition]]。
 
 ## 支持的證據
 
@@ -38,3 +38,4 @@ updated: 2026-11-23
 - 來源：[[ward-2017]]
 - 相關主張：[[phone-presence-reduces-cognition]]
 - 概念：[[brain-drain-effect]]
+- 常見問題：[[where-to-put-phone-when-studying]]

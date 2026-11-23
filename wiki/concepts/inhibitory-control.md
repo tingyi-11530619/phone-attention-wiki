@@ -23,7 +23,7 @@ en: inhibitory control
 
 ## 相關研究
 
-- 【統合分析｜青少年與成人 k=71】[[nguyen-2025]]：在短影音使用和各種認知能力的關聯中，抑制控制的相關最強（[[nguyen-2025]], Abstract: "with attention (r = -.38) and inhibitory control (r = -.41) yielding the strongest associations"）（僅根據摘要）。見 [[short-video-and-attention]]。
+- 【統合分析｜青少年與成人 k=71】[[nguyen-2025]]：在短影音（short-form video）使用和各種認知能力的關聯中，抑制控制的相關最強（[[nguyen-2025]], Abstract: "with attention (r = -.38) and inhibitory control (r = -.41) yielding the strongest associations"）（僅根據摘要）。見 [[short-video-and-attention]]。
 - [[ward-2017]] 提出的**機制假說**也和「忍住」有關：大腦要花資源，壓抑自己不去注意手機（[[ward-2017]], p. 142: "keeping attractive but task-irrelevant stimuli from interfering with the contents of consciousness"）。但這只是作者的理論解釋，這篇並沒有直接測量抑制控制。見 [[brain-drain-effect]]。
 
 ## 常見誤解

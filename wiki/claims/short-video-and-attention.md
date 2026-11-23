@@ -10,7 +10,7 @@ updated: 2026-11-23
 
 ## 簡短回答
 
-**有關聯，但不能說是短影音造成的。** 一篇整理了大量研究的統合分析（meta-analysis）發現，短影音看得越多的人，注意力和抑制控制（inhibitory control）的表現越差。但這是相關，不是因果：可能是短影音影響了注意力，也可能是注意力本來就比較差的人比較常看短影音。
+**有關聯，但不能說是短影音（short-form video）造成的。** 一篇整理了大量研究的統合分析（meta-analysis）發現，短影音看得越多的人，注意力和抑制控制（inhibitory control）的表現越差。但這是相關，不是因果：可能是短影音影響了注意力，也可能是注意力本來就比較差的人比較常看短影音。
 
 **什麼是短影音？** 像 TikTok、Instagram Reels、YouTube Shorts 這類可以無限往下滑的短影片（[[nguyen-2025]], Abstract: "their design, characterized by endless scrolling interfaces, has raised concerns about addiction"）（僅根據摘要）。
 
@@ -46,7 +46,7 @@ updated: 2026-11-23
 > 以下是本 wiki 的整理，不是任何一篇論文的結論。
 
 - 「常看短影音」和「注意力較差」**一起出現**，這點有很多研究支持，而且青少年和成人都一樣（[[nguyen-2025]], Abstract: "This systematic review and meta-analytic investigation comprised data from 98,299 participants across 71 studies"）（僅根據摘要）。
-- 但目前**不能**說「短影音會讓孩子注意力變差」。要回答這個問題，需要追蹤研究或實驗，而摘要沒有說明納入的研究是哪一種設計。見 [[correlation-vs-causation]]。
+- 但目前**不能**說「短影音會讓孩子注意力變差」。要回答這個問題，需要追蹤研究（longitudinal study）或實驗，而摘要沒有說明納入的研究是哪一種設計。見 [[correlation-vs-causation]]。
 - 這篇只有摘要，不知道「注意力」是怎麼測量的（自評問卷還是作業），這會影響我們怎麼解讀結果。
 
 ## 相關頁面

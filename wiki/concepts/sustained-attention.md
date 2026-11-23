@@ -23,7 +23,7 @@ en: sustained attention
 
 ## 常見誤解
 
-- **「認知容量下降」不等於「不專心」。** [[ward-2017]] 發現手機在旁邊時，工作記憶（working memory）和推理分數稍微下降，但專注力沒變（[[ward-2017]], p. 149: "without interrupting sustained attention or increasing the frequency of phone-related thoughts"）。所以不能用這篇研究說「手機在旁邊會讓人分心」。
+- **「認知容量（cognitive capacity）下降」不等於「不專心」。** [[ward-2017]] 發現手機在旁邊時，工作記憶（working memory）和推理分數稍微下降，但專注力沒變（[[ward-2017]], p. 149: "without interrupting sustained attention or increasing the frequency of phone-related thoughts"）。所以不能用這篇研究說「手機在旁邊會讓人分心」。
 
 ## 相關頁面
 

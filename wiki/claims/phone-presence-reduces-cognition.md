@@ -10,7 +10,7 @@ updated: 2026-11-23
 
 ## 簡短回答
 
-**目前證據不一致。** 一個大學生的實驗發現，手機靜音放在桌上時，記憶和推理測驗的分數會**稍微**低一點；但後來一個刻意讓效果更容易出現的重複驗證（replication）研究，**沒有**找到這個效果。而且就算在原始研究中，受影響的也是「大腦能同時處理多少東西」（認知容量），**不是**「能不能專心」（專注力）。
+**目前證據不一致。** 一個大學生的實驗發現，手機靜音放在桌上時，記憶和推理測驗的分數會**稍微**低一點；但後來一個刻意讓效果更容易出現的重複驗證（replication）研究，**沒有**找到這個效果。而且就算在原始研究中，受影響的也是「大腦能同時處理多少東西」（認知容量，cognitive capacity），**不是**「能不能專心」（專注力）。
 
 ## 先分清楚：認知容量 ≠ 專注力
 
@@ -40,7 +40,7 @@ updated: 2026-11-23
 
 ## 這和「常看短影音」是不同的問題
 
-另一個主張 [[short-video-and-attention]] 發現，常看短影音的人注意力比較差。這和本頁「持續性注意力沒有受影響」**並不矛盾**：
+另一個主張 [[short-video-and-attention]] 發現，常看短影音（short-form video）的人注意力比較差。這和本頁「持續性注意力沒有受影響」**並不矛盾**：
 
 - **本頁**問的是：手機**此刻**放在旁邊，有沒有**短暫影響**？用的是實驗。
 - **[[short-video-and-attention]]** 問的是：**長期**的使用習慣，和注意力有沒有**關聯**？用的是相關研究，不能說因果。
@@ -66,4 +66,5 @@ updated: 2026-11-23
 - 來源：[[ward-2017]]、[[pileggi-2025]]
 - 概念：[[brain-drain-effect]]、[[replication]]、[[working-memory]]、[[fluid-intelligence]]、[[sustained-attention]]、[[smartphone-dependence]]
 - 相關主張：[[phone-face-down-or-off]]、[[short-video-and-attention]]（不同的問題）、[[school-phone-bans]]
+- 常見問題：[[where-to-put-phone-when-studying]]
 - 方法：[[correlation-vs-causation]]

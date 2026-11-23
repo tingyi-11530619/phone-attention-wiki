@@ -17,7 +17,8 @@ updated: 2026-11-23
 
 ## 常見問題（faq）
 
-（尚無頁面）
+- [[where-to-put-phone-when-studying]]：讀書時手機要放哪裡？
+- [[is-my-child-addicted]]：我的孩子手機成癮了嗎？
 
 ## 主張／發現（claims）
 

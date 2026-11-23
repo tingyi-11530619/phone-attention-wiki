@@ -14,9 +14,9 @@ updated: 2026-11-23
 
 ## 支持「有關聯」的證據
 
-- 【統合分析｜青少年與成人 k=71 N=98,299】短影音用得越多，心理健康越差，作者描述為「弱（weak）」的相關，r = -.21（[[nguyen-2025]], Abstract: "Similarly, increased SFV use was associated with poorer mental health (weak mean effect size, r = -.21)"）（僅根據摘要）
+- 【統合分析｜青少年與成人 k=71 N=98,299】短影音（short-form video）用得越多，心理健康越差，作者描述為「弱（weak）」的相關，r = -.21（[[nguyen-2025]], Abstract: "Similarly, increased SFV use was associated with poorer mental health (weak mean effect size, r = -.21)"）（僅根據摘要）
 - 【評論】過度使用手機和焦慮、憂鬱、壓力、低自尊有關，這是相關研究的發現（[[panova-2018]], p. 256: "In correlational studies, overuse of the smartphone is associated with various mental health concerns, such as anxiety, depression, stress, and low self-esteem"）
-- 【相關性研究｜英國 12–15 歲中學生 N=1227】使用手機和社群媒體的時間越長，心理幸福感越低（[[goodyear-2025]], p. 8: "Increases in smartphone and social media time were associated with reduced mental wellbeing on a weekday, on a weekend day, and across a week"），焦慮和憂鬱越高（[[goodyear-2025]], p. 8: "Increases in smartphone and social media time were associated with increases in anxiety, depression and problematic social media use across all measurement periods"）。**作者自己表示，這是橫斷面研究，不能排除反向因果**（[[goodyear-2025]], p. 12: "the study design is cross sectional which makes it difficult to draw conclusions about causality and reverse causality cannot be ruled out"），也就是可能是心理狀態較差的青少年用得比較多。
+- 【相關性研究｜英國 12–15 歲中學生 N=1227】使用手機和社群媒體的時間越長，心理幸福感（mental wellbeing）越低（[[goodyear-2025]], p. 8: "Increases in smartphone and social media time were associated with reduced mental wellbeing on a weekday, on a weekend day, and across a week"），焦慮和憂鬱越高（[[goodyear-2025]], p. 8: "Increases in smartphone and social media time were associated with increases in anxiety, depression and problematic social media use across all measurement periods"）。**作者自己表示，這是橫斷面研究（cross-sectional study），不能排除反向因果（reverse causality）**（[[goodyear-2025]], p. 12: "the study design is cross sectional which makes it difficult to draw conclusions about causality and reverse causality cannot be ruled out"），也就是可能是心理狀態較差的青少年用得比較多。
 
 **注意：以上都是「有關聯」，不是「造成」。**
 
@@ -24,10 +24,10 @@ updated: 2026-11-23
 
 - 【評論】「數位科技重塑孩子大腦、造成心理疾病流行」的說法沒有科學支持（[[odgers-2024]], p. 29: "the book's repeated suggestion that digital technologies are rewiring our children's brains and causing an epidemic of mental illness is not supported by science"）
 - 【評論】大部分研究的結果是沒有、很小，或不一致的關聯（[[odgers-2024]], p. 29: "Our efforts have produced a mix of no, small and mixed associations"），而且大多是相關研究（[[odgers-2024]], p. 29: "Most data are correlative"）
-- 【評論】**可能是反過來**：追蹤研究顯示，原本就有心理健康問題的青少年，使用社群媒體的方式和頻率不同（[[odgers-2024]], p. 29: "mental-health problems use such platforms more often or in different ways from their healthy peers"）
+- 【評論】**可能是反過來**：追蹤研究（longitudinal study）顯示，原本就有心理健康問題的青少年，使用社群媒體的方式和頻率不同（[[odgers-2024]], p. 29: "mental-health problems use such platforms more often or in different ways from their healthy peers"）
 - 【評論】心理疾病的成因很複雜，遺傳和環境因素都有（[[odgers-2024]], p. 29: "are driven by a complex set of genetic and environmental factors"）
 - 【評論】有負面後果，不等於是成癮（[[panova-2018]], p. 257: "negative consequences is not the same as the existence of addiction"）。見 [[is-smartphone-addiction-real]]。
-- **作者對其他研究的描述，wiki 尚未收錄**：Odgers 提到，多篇統合分析（meta-analysis）和系統性回顧的結論一致（[[odgers-2024]], p. 29: "Several meta-analyses and systematic reviews converge on the same message"）。
+- **作者對其他研究的描述，wiki 尚未收錄**：Odgers 提到，多篇統合分析（meta-analysis）和系統性回顧（systematic review）的結論一致（[[odgers-2024]], p. 29: "Several meta-analyses and systematic reviews converge on the same message"）。
 
 ## 為什麼「兩條線一起上升」不能當證據
 
@@ -52,4 +52,5 @@ updated: 2026-11-23
 
 - 來源：[[odgers-2024]]、[[nguyen-2025]]、[[panova-2018]]、[[goodyear-2025]]
 - 相關主張：[[is-smartphone-addiction-real]]、[[short-video-and-attention]]、[[school-phone-bans]]
+- 常見問題：[[is-my-child-addicted]]
 - 概念：[[correlation-vs-causation]]、[[meta-analysis]]
