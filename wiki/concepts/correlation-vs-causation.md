@@ -1,7 +1,7 @@
 ---
 type: concept
 title: 相關不等於因果
-sources: [ward-2017, nguyen-2025]
+sources: [ward-2017, nguyen-2025, odgers-2024]
 origin: ingest
 updated: 2026-11-23
 en: correlation is not causation
@@ -31,6 +31,7 @@ en: correlation is not causation
 
 - 【實驗】[[ward-2017]] 是**實驗**：參與者被隨機分配手機放的位置（[[ward-2017]], p. 144: "We manipulated smartphone salience by randomly assigning participants to one of three phone location conditions"）。所以如果效果穩定，可以說是「手機位置造成的」。但這個效果後來沒有被重現，見 [[phone-presence-reduces-cognition]]。
 - 【統合分析】[[nguyen-2025]] 整理的是**相關**：摘要用的詞是「有關聯」（associated with），不是「造成」（[[nguyen-2025]], Abstract: "Increased SFV use was associated with poorer cognition"）（僅根據摘要）。見 [[short-video-and-attention]]。
+- 【評論】[[odgers-2024]] 用**趨勢線**當例子：「科技使用」和「青少年心理健康問題」一起上升的圖表（[[odgers-2024]], p. 29: "Haidt supplies graphs throughout the book showing that digital-technology use and adolescent mental-health problems are rising together"），很容易讓人編出因果故事，但只看趨勢線不能判斷因果（[[odgers-2024]], p. 29: "how to avoid making up stories by simply looking at trend lines"）。Odgers 也指出可能是**反過來**：原本就有心理健康問題的青少年，使用社群媒體的方式不同。見 [[phone-social-media-mental-health]]。
 
 ## 常見誤解
 

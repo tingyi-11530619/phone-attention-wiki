@@ -22,7 +22,7 @@ updated: 2026-11-23
 
 **r 值的白話說明**：r 介於 -1 到 1 之間，負數代表「短影音越多，分數越低」。r 只能說明兩件事一起變動，不能說明誰影響誰。
 
-另外也發現與心理健康有弱相關，見 [[nguyen-2025]]（[[nguyen-2025]], Abstract: "increased SFV use was associated with poorer mental health (weak mean effect size, r = -.21)"）（僅根據摘要）。
+另外也發現與心理健康有弱相關，見 [[nguyen-2025]] 和 [[phone-social-media-mental-health]]（[[nguyen-2025]], Abstract: "increased SFV use was associated with poorer mental health (weak mean effect size, r = -.21)"）（僅根據摘要）。
 
 ## 反對或未能重現的證據
 

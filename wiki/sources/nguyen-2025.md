@@ -40,7 +40,7 @@ n: 98,299（71 篇研究）
 
 ## 主要發現：心理健康
 
-> 心理健康不是本 wiki 的主要主題，所以這部分只寫在來源頁。
+> 心理健康的整理見 [[phone-social-media-mental-health]]，弱相關的結果（主要發現 4）已經放進那一頁當證據。
 
 4. **短影音用得越多，心理健康越差。** 作者把這個相關的強度描述為「弱（weak）」，r = -.21（[[nguyen-2025]], Abstract: "Similarly, increased SFV use was associated with poorer mental health (weak mean effect size, r = -.21)"）（僅根據摘要）
 5. **壓力和焦慮的相關最強**：壓力 r = -.34，焦慮 r = -.33（[[nguyen-2025]], Abstract: "with stress (r = -.34) and anxiety (r = -.33) showing the strongest associations"）（僅根據摘要）
@@ -69,5 +69,5 @@ n: 98,299（71 篇研究）
 
 ## 相關頁面
 
-- 主張：[[short-video-and-attention]]
+- 主張：[[short-video-and-attention]]、[[phone-social-media-mental-health]]
 - 概念：[[meta-analysis]]、[[correlation-vs-causation]]、[[inhibitory-control]]
