@@ -1,7 +1,7 @@
 ---
 type: concept
 title: 腦力流失效應
-sources: [ward-2017]
+sources: [ward-2017, pileggi-2025]
 origin: ingest
 updated: 2026-11-23
 en: brain drain effect
@@ -27,7 +27,8 @@ en: brain drain effect
 ## 相關研究
 
 - [[ward-2017]]：提出這個效應，兩個大學生實驗都觀察到小幅的效果。
-- 後續的重複驗證研究，見 [[phone-presence-reduces-cognition]]。
+- 【重複驗證】[[pileggi-2025]]：先讓參與者戒用手機 5 小時，刻意讓效應更容易出現，結果**沒有**找到這個效應（[[pileggi-2025]], Abstract: "the results showed no Brain Drain effect"）（僅根據摘要）。
+- 兩篇結果不一致，整理見 [[phone-presence-reduces-cognition]]。另見 [[replication]]。
 
 ## 常見誤解
 

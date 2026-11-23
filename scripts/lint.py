@@ -273,6 +273,7 @@ def check_format(pages, by_slug, rep: Report) -> None:  # 第 8 項
             continue
         # [[slug|顯示文字]] 換成顯示文字；[[slug]] 移除（slug 是英文，不影響中文比對）
         body = LINK_RE.sub(lambda m: m.group(0)[2:-2].split("|", 1)[1] if "|" in m.group(0) else "", p.body)
+        body = re.sub(r"【[^】\n]*】", "", body)  # 研究設計標籤是固定格式，不算「第一次出現」
         for zh, en in terms:
             i = body.find(zh)
             if i < 0:
