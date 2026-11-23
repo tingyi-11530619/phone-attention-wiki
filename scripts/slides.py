@@ -154,8 +154,13 @@ def plain(text: str) -> str:
     return re.sub(r"\s+", " ", text.replace("**", "")).strip()
 
 
+WLINK_RE = re.compile(r"\[\[([a-z0-9-]+)\]\]")
+
+
 def char_count(text: str) -> int:
-    return len(re.sub(r"\s+", "", REF_RE.sub("", text).replace("**", "")))
+    """正文字數：不含 [card-id]、[[wiki 連結]]、** 和空白。"""
+    t = WLINK_RE.sub("", REF_RE.sub("", text)).replace("**", "")
+    return len(re.sub(r"\s+", "", t))
 
 
 # ---------------------------------------------------------------- G1
@@ -311,6 +316,7 @@ def g6(d: Path) -> int:
     r = Result("G6 (a) 忠實度檢查（腳本）")
     cards = load_cards(d)
     slides = parse_outline(d)
+    _, listed = parse_sources(d)
     drafts = {p.stem: p for p in sorted((d / "drafts").glob("slide-*.md"))}
     for sid in slides:
         if sid not in drafts:
@@ -330,6 +336,9 @@ def g6(d: Path) -> int:
             r.err(f"{sid}：正文 {body_n} 字，超過 {BODY_MAX} 字")
         for kind, text in lines:
             refs = REF_RE.findall(text)
+            for slug in WLINK_RE.findall(text):
+                if slug not in listed:
+                    r.err(f"{sid}：[[{slug}]] 沒有列在 sources.md")
             if kind == "other":
                 r.err(f"{sid}：「{text[:20]}」不是 `- ` 事實句或 `> ` 引導句")
             if kind == "lead":
@@ -368,7 +377,9 @@ font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-ser
 .slide li{font-size:clamp(18px,2.8vw,32px);line-height:1.55;margin:0 0 2.2vh;padding-left:1.1em;position:relative}
 .slide li::before{content:"";position:absolute;left:0;top:.62em;width:.42em;height:.42em;border-radius:50%;background:var(--accent)}
 .slide p.lead{font-size:clamp(18px,2.6vw,30px);line-height:1.55;margin:2vh 0 0;color:var(--muted);border-left:4px solid var(--accent);padding-left:.8em}
+.slide p.lead + ul{margin-top:3.5vh}
 .ref{font-size:.55em;color:var(--ref);vertical-align:super;margin-left:.15em;cursor:help;white-space:nowrap}
+.wref{font-size:.6em;color:var(--ref);margin-left:.4em;cursor:help;white-space:nowrap}
 .chrome{position:fixed;bottom:2vh;right:3vw;font-size:14px;color:var(--muted)}
 .chrome.hint{left:3vw;right:auto}
 #overflow-report{position:fixed;top:0;left:0;margin:0;font-size:12px;white-space:pre;display:none}
@@ -399,12 +410,15 @@ JS = """
 
 def render_inline(text: str, cards) -> str:
     out, pos = [], 0
-    for m in re.finditer(r"\*\*(.+?)\*\*|\[(c\d{2,3})\]", text):
+    for m in re.finditer(r"\*\*(.+?)\*\*|\[\[([a-z0-9-]+)\]\]|\[(c\d{2,3})\]", text):
         out.append(html.escape(text[pos:m.start()]))
         if m.group(1) is not None:
             out.append(f"<strong>{html.escape(m.group(1))}</strong>")
+        elif m.group(2) is not None:
+            slug = m.group(2)
+            out.append(f'<span class="wref" title="wiki 概念頁：wiki/concepts/{slug}.md">[[{slug}]]</span>')
         else:
-            cid = m.group(2)
+            cid = m.group(3)
             tip = re.sub(r"\s+", " ", cards[cid]["cites"]) if cid in cards else ""
             out.append(f'<span class="ref" title="{html.escape(tip, quote=True)}">[{cid}]</span>')
         pos = m.end()
