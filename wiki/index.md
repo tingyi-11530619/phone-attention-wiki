@@ -21,6 +21,7 @@ updated: 2026-11-23
 
 - [[phone-presence-reduces-cognition]]：手機只是放在旁邊，會降低腦力嗎？（證據不一致）
 - [[phone-face-down-or-off]]：手機翻面或關機，有用嗎？
+- [[short-video-and-attention]]：常看短影音的人，注意力比較差嗎？（有相關，不能說因果）
 
 ## 概念（concepts）
 
@@ -29,7 +30,13 @@ updated: 2026-11-23
 - [[fluid-intelligence]]：流體智力，面對新問題時的推理能力
 - [[sustained-attention]]：持續性注意力，也就是一般說的「專注力」
 - [[smartphone-dependence]]：手機依賴，在日常生活中仰賴手機的程度（不等於成癮）
+- [[inhibitory-control]]：抑制控制，「忍住」不被別的東西拉走的能力
+
+**讀研究的基本功**
+
+- [[correlation-vs-causation]]：相關不等於因果，「一起出現」不代表「誰造成誰」
 - [[replication]]：重複驗證，為什麼一篇研究不夠
+- [[meta-analysis]]：統合分析，把很多研究合在一起看
 
 ## 人物、機構、量表（entities）
 
@@ -39,3 +46,4 @@ updated: 2026-11-23
 
 - [[ward-2017]]：【實驗｜大學生】手機只是放在旁邊，就會佔用腦力？（全文）
 - [[pileggi-2025]]：【重複驗證】先戒手機 5 小時，再測一次「腦力流失」，結果沒有出現效應（僅摘要）
+- [[nguyen-2025]]：【統合分析｜青少年與成人】短影音使用與認知、心理健康：整合 71 篇研究（僅摘要）

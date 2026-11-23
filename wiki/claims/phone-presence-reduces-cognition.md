@@ -38,6 +38,15 @@ updated: 2026-11-23
 
 - 【實驗｜大學生 N=275】專注力（Go/No-Go 作業）**沒有**因為手機位置而改變（[[ward-2017]], p. 148: "Phone location did not affect sustained attention"）。所以 [[ward-2017]] **不能**拿來說「手機在旁邊會讓人分心」。
 
+## 這和「常看短影音」是不同的問題
+
+另一個主張 [[short-video-and-attention]] 發現，常看短影音的人注意力比較差。這和本頁「持續性注意力沒有受影響」**並不矛盾**：
+
+- **本頁**問的是：手機**此刻**放在旁邊，有沒有**短暫影響**？用的是實驗。
+- **[[short-video-and-attention]]** 問的是：**長期**的使用習慣，和注意力有沒有**關聯**？用的是相關研究，不能說因果。
+
+一個是「當下手機在不在旁邊」，一個是「平常怎麼用手機」，兩者不能互相推翻。比較表見 [[short-video-and-attention]]。
+
 ## 目前怎麼看
 
 > 以下是本 wiki 的整理，不是任何一篇論文的結論。
@@ -56,4 +65,5 @@ updated: 2026-11-23
 
 - 來源：[[ward-2017]]、[[pileggi-2025]]
 - 概念：[[brain-drain-effect]]、[[replication]]、[[working-memory]]、[[fluid-intelligence]]、[[sustained-attention]]、[[smartphone-dependence]]
-- 相關主張：[[phone-face-down-or-off]]
+- 相關主張：[[phone-face-down-or-off]]、[[short-video-and-attention]]（不同的問題）
+- 方法：[[correlation-vs-causation]]

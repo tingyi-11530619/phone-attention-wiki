@@ -1,0 +1,45 @@
+---
+type: concept
+title: 相關不等於因果
+sources: [ward-2017, nguyen-2025]
+origin: ingest
+updated: 2026-11-23
+en: correlation is not causation
+---
+
+# 相關不等於因果（correlation is not causation）
+
+## 白話解釋
+
+> 本節是 wiki 對研究方法的一般說明，不是出自任何一篇收錄的來源。
+
+「A 和 B 一起出現」不代表「A 造成 B」。至少還有三種可能：
+
+1. **反過來**：是 B 造成 A。例如不是短影音讓注意力變差，而是注意力本來就差的人比較愛看短影音。
+2. **第三個因素**：有一個 C 同時影響 A 和 B。例如睡眠不足，可能同時讓人更常滑手機、也更難專心。
+3. **巧合**：資料剛好一起變動。
+
+## 研究上怎麼分辨
+
+> 本節是 wiki 的一般說明。
+
+- **相關研究**：觀察「本來就這樣」的人，例如調查大家看多少短影音、注意力如何。只能說明「一起出現」。
+- **實驗**：研究者**隨機**把人分組，只改變一件事，例如手機放的位置，再比較結果。因為分組是隨機的，組間的差異比較能歸因於被改變的那件事。
+- **追蹤研究**：同一群人追蹤好幾年，看「先發生的」能不能預測「後發生的」。比相關研究強，但仍然不能完全排除第三個因素。
+
+## 本 wiki 中的例子
+
+- 【實驗】[[ward-2017]] 是**實驗**：參與者被隨機分配手機放的位置（[[ward-2017]], p. 144: "We manipulated smartphone salience by randomly assigning participants to one of three phone location conditions"）。所以如果效果穩定，可以說是「手機位置造成的」。但這個效果後來沒有被重現，見 [[phone-presence-reduces-cognition]]。
+- 【統合分析】[[nguyen-2025]] 整理的是**相關**：摘要用的詞是「有關聯」（associated with），不是「造成」（[[nguyen-2025]], Abstract: "Increased SFV use was associated with poorer cognition"）（僅根據摘要）。見 [[short-video-and-attention]]。
+
+## 常見誤解
+
+> 本節是 wiki 的一般說明。
+
+- **「研究顯示，看越多手機的孩子越……」** 這類句子幾乎都是相關，不是因果。
+- **樣本很大不代表就是因果。** 十萬人的相關研究，仍然只是相關。
+- **相關也有價值。** 它告訴我們哪裡值得進一步研究，只是不能直接當作「原因」。
+
+## 相關頁面
+
+- [[meta-analysis]]、[[replication]]
