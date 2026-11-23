@@ -403,7 +403,7 @@ CSS = """
 font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif}
 .slide{display:none;position:absolute;inset:0;padding:6vh 8vw;flex-direction:column;justify-content:center;overflow:hidden}
 .slide.active{display:flex}
-.slide h1{font-size:clamp(28px,5vw,56px);line-height:1.25;margin:0 0 4vh;color:var(--fg);text-wrap:balance}
+.slide h1{font-size:clamp(28px,5vw,56px);line-height:1.25;margin:0 0 4vh;color:var(--fg);text-wrap:balance;word-break:keep-all;overflow-wrap:anywhere}
 body.hide-refs .ref{display:none}
 .slide.sources h1{font-size:clamp(24px,3.6vw,40px);margin-bottom:3vh}
 .slide.sources ul{columns:2;column-gap:4vw}
