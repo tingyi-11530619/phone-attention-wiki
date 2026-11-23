@@ -37,7 +37,7 @@ n: 1227（30 所學校）
 ## 主要發現 A：限制手機 vs. 允許手機
 
 1. **在校使用時間比較少。** 限制型學校的學生，在校用手機的時間少了 0.67 小時、用社群媒體的時間少了 0.54 小時（[[goodyear-2025]], p. 7: "Students attending restrictive schools had significantly lower in school smartphone time"）
-2. **但整體使用時間沒有差別。** 平日、週末和一整週的使用時間都沒有差別（[[goodyear-2025]], p. 7: "in the adjusted models, the differences were non-significant"）
+2. **但調整其他因素後，整體使用時間沒有顯著差別。** 平日、週末和一整週的使用時間，限制型學校的中位數其實比較高（[[goodyear-2025]], p. 7: "the median use duration in restrictive schools was greater"），但在調整其他因素後的模型中，差異都不顯著（[[goodyear-2025]], p. 7: "in the adjusted models, the differences were non-significant"）
 3. **心理幸福感沒有差別**（[[goodyear-2025]], p. 7: "with no evidence of a difference between groups when controlling for other variables"）；焦慮和憂鬱也沒有差別（[[goodyear-2025]], p. 7: "there was no evidence of a significant difference between permissive and restrictive schools"）
 4. **睡眠、運動、成績、課堂行為也都沒有差別**（[[goodyear-2025]], p. 7: "No significant differences in pupil outcomes were observed between permissive and restrictive schools for all other behavioural outcomes"）
 5. **就算是「手機完全拿不到」的學校也一樣。** 只看手機必須鎖起來或交出去的學校，和允許型學校比較，結果仍然沒有差別（[[goodyear-2025]], p. 7: "In the sensitivity analysis using only restrictive schools where phones were inaccessible to pupils, there were no significant differences with permissive schools across all outcomes"）

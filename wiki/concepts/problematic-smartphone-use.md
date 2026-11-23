@@ -13,7 +13,7 @@ en: problematic smartphone use
 
 問題性手機使用指的是：手機用得多到**帶來一些麻煩**，例如影響睡眠、課業或人際關係，但嚴重程度**還不到**醫學上「成癮」的程度。
 
-[[panova-2018]] 認為，很多被叫做「手機成癮」的行為，用這個詞來描述比較準確（[[panova-2018]], p. 252: "The behaviors observed in the research could be better labeled as problematic or maladaptive smartphone use"）。
+[[panova-2018]] 認為，研究中觀察到、被叫做「手機成癮」的那些行為，用這個詞來描述比較準確（[[panova-2018]], p. 252: "The behaviors observed in the research could be better labeled as problematic or maladaptive smartphone use"）。
 
 ## 和「成癮」、「依賴」有什麼不同？
 

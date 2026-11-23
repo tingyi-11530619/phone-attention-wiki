@@ -34,7 +34,7 @@ updated: 2026-11-23
 
 - **兒童和青少年是否一樣？** 唯一發現效果的實驗是在大學生身上做的，作者自己也說，兒童和青少年需要另外研究（[[ward-2017]], p. 151: "Future research could focus on how children, adolescents, and young adults are affected"）。
 - **讀書成效會不會受影響？** 實驗測的是用來衡量認知容量的作業（[[ward-2017]], p. 144: "completed two tasks intended to measure available cognitive capacity"），不是在家讀書、寫作業或考試的成績。
-- **長時間讀書時會怎樣？** 研究都是在實驗室裡做的（[[ward-2017]], p. 150: "participants in our experiments expected to be separated from their phones (this was the norm in the lab)"），不是長時間在家讀書的情境。
+- **長時間讀書時會怎樣？** [[ward-2017]] 的實驗是在實驗室裡做的（[[ward-2017]], p. 150: "participants in our experiments expected to be separated from their phones (this was the norm in the lab)"），不是長時間在家讀書的情境。
 - **手機通知的影響？** 實驗中手機都是靜音或關機的（[[ward-2017]], p. 146: "randomly assigning participants to either silence their phones (as in experiment 1) or turn them off completely"），所以不知道有通知時會怎樣。
 
 ## 給家長和老師的提醒

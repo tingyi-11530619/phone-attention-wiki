@@ -26,7 +26,7 @@ updated: 2026-11-23
 - 【評論】目前證據不足以確認手機成癮存在（[[panova-2018]], p. 252: "we did not find sufficient support from the addiction perspective to confirm the existence of smartphone addiction at this time"）
 - 【評論】後果的嚴重程度達不到成癮（[[panova-2018]], p. 252: "their consequences do not meet the severity levels of those caused by addiction"）
 - 【評論】問題在用手機做的**活動**，不在手機本身（[[panova-2018]], p. 256: "but the problem is not the smartphone device itself"）
-- 【評論】研究大多是在健康的人身上做篩檢問卷，而篩檢工具不能用來診斷（[[panova-2018]], p. 255: "the screening instruments used are not valid for diagnosis"），偽陽性（false positive）的機率也很高（[[panova-2018]], p. 255: "there is a large probability of false positives"）
+- 【評論】手機成癮的症狀，是在健康的人身上做的篩檢和相關研究中找到的，不是臨床樣本（[[panova-2018]], p. 255: "the symptoms of smartphone addiction have been identified in screening and correlational studies with healthy people"）；而篩檢工具不能用來診斷（[[panova-2018]], p. 255: "the screening instruments used are not valid for diagnosis"），偽陽性（false positive）的機率也很高（[[panova-2018]], p. 255: "there is a large probability of false positives"）
 - 【評論】作者擔心「成癮」被過度使用，會製造出假的流行病（[[panova-2018]], p. 256: "in order to avoid generating false epidemics of misidentified pseudopatients"）
 
 ## 支持「是成癮」的證據

@@ -10,14 +10,14 @@ updated: 2026-11-23
 
 ## 簡短回答
 
-**要看「對什麼有用」。** 一個英國的大型觀察研究發現，限制手機的學校，學生在學校裡確實比較少用手機；但整天的總使用時間，以及心理健康、睡眠、成績和課堂行為，都和允許手機的學校**沒有差別**。這個研究**沒有測量注意力**，所以目前無法回答「禁手機能不能讓學生上課更專心」。
+**要看「對什麼有用」。** 一個英國的大型觀察研究發現，限制手機的學校，學生在學校裡確實比較少用手機；但調整其他因素後，整天的總使用時間，以及心理健康、睡眠、成績和課堂行為，都和允許手機的學校**沒有顯著差別**。這個研究**沒有測量注意力**，所以目前無法回答「禁手機能不能讓學生上課更專心」。
 
 ## 對什麼有用？
 
 | 對什麼有用？ | 研究結果 | 出處 |
 |---|---|---|
 | 減少**在校**使用時間 | **有**，在校用手機的時間少了 0.67 小時 | （[[goodyear-2025]], p. 7: "Students attending restrictive schools had significantly lower in school smartphone time"） |
-| 減少**整體**使用時間 | **沒有差別**（平日、週末、一整週） | （[[goodyear-2025]], p. 7: "in the adjusted models, the differences were non-significant"） |
+| 減少**整體**使用時間 | 調整其他因素後，**沒有顯著差別**（平日、週末、一整週） | （[[goodyear-2025]], p. 7: "in the adjusted models, the differences were non-significant"） |
 | 心理幸福感（mental wellbeing） | **沒有差別** | （[[goodyear-2025]], p. 7: "with no evidence of a difference between groups when controlling for other variables"） |
 | 睡眠、運動、成績、課堂行為 | **沒有差別** | （[[goodyear-2025]], p. 7: "No significant differences in pupil outcomes were observed between permissive and restrictive schools for all other behavioural outcomes"） |
 | **注意力、專注力** | **沒有測量** | 研究測量的項目見 [[goodyear-2025]]「研究設計與對象」 |
@@ -32,7 +32,7 @@ updated: 2026-11-23
 - 【相關性研究｜英國 12–15 歲中學生】就算只看手機完全拿不到的學校，結果也一樣（[[goodyear-2025]], p. 7: "In the sensitivity analysis using only restrictive schools where phones were inaccessible to pupils, there were no significant differences with permissive schools across all outcomes"）
 - 【相關性研究｜英國 12–15 歲中學生】作者的結論是：目前沒有證據支持現行形式的學校禁手機政策（[[goodyear-2025]], p. 1: "The findings do not provide evidence to support the use of school policies that prohibit phone use during the school day in their current form"）
 
-**為什麼會這樣？** 作者的解釋是，在校使用只占總使用量的一小部分（[[goodyear-2025]], p. 12: "phone and social media use is only a small contributor to overall use on school days"）。學校限制了白天的使用，但沒有減少學生的整體使用時間。
+**為什麼會這樣？** 作者的解釋是，在校使用只占總使用量的一小部分（[[goodyear-2025]], p. 12: "phone and social media use is only a small contributor to overall use on school days"）。學校限制了白天的使用，但調整其他因素後，學生的整體使用時間沒有顯著差別。
 
 ## 專家意見（不算研究證據）
 

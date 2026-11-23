@@ -36,7 +36,7 @@ n: 未載明（文獻回顧，不適用）
 2. **比較適合稱為「問題性」或「適應不良」的使用**，因為後果的嚴重程度達不到成癮的程度（[[panova-2018]], p. 252: "The behaviors observed in the research could be better labeled as problematic or maladaptive smartphone use"）
 3. **負面後果不等於成癮。** 相關研究確實發現，過度使用手機的人有比較多焦慮、憂鬱等狀況（[[panova-2018]], p. 256: "In correlational studies, overuse of the smartphone is associated with various mental health concerns, such as anxiety, depression, stress, and low self-esteem"），但作者強調，有負面後果和是不是成癮是兩回事（[[panova-2018]], p. 257: "negative consequences is not the same as the existence of addiction"）
 4. **問題在活動，不在裝置。** 作者用酒杯和針筒來比喻：成癮的對象是酒和藥物，不是裝它們的容器（[[panova-2018]], p. 256: "the addiction is to the substance not to the vessel or to the route of administration"）。手機的問題取決於用它來做什麼（[[panova-2018]], p. 256: "but the problem is not the smartphone device itself"）
-5. **篩檢研究不能用來診斷。** 手機成癮的研究大多是在健康的人身上做篩檢問卷，而不是臨床樣本（[[panova-2018]], p. 255: "the symptoms of smartphone addiction have been identified in screening and correlational studies with healthy people"），而且篩檢工具本身不能拿來診斷（[[panova-2018]], p. 255: "the screening instruments used are not valid for diagnosis"）
+5. **篩檢研究不能用來診斷。** 手機成癮的症狀，是在健康的人身上做的篩檢和相關研究中找到的，而不是臨床樣本（[[panova-2018]], p. 255: "the symptoms of smartphone addiction have been identified in screening and correlational studies with healthy people"），而且篩檢工具本身不能拿來診斷（[[panova-2018]], p. 255: "the screening instruments used are not valid for diagnosis"）
 6. **截至這篇文章發表時，精神疾病診斷手冊裡沒有手機成癮**（[[panova-2018]], p. 252: "no mention has been made of smartphone addiction in either the DSM-5 or in the ICD-11's draft"）
 
 ## 作者逐項檢驗的成癮標準

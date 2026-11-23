@@ -47,7 +47,7 @@ n: 未載明（書評，不適用）
 > 以下是作者對其他研究的描述，wiki 尚未收錄那些研究。
 
 - 多篇統合分析（meta-analysis）和系統性回顧（systematic review）的結論一致（[[odgers-2024]], p. 29: "Several meta-analyses and systematic reviews converge on the same message"）
-- 一項跨國分析沒有發現社群媒體普及和幸福感之間有一致的關聯（[[odgers-2024]], p. 29: "shows no consistent or measurable associations between well-being and the roll-out of social media globally"）
+- 一項跨國分析沒有發現社群媒體在全球普及和幸福感之間，有一致或可測量的關聯（[[odgers-2024]], p. 29: "shows no consistent or measurable associations between well-being and the roll-out of social media globally"）
 - 美國一項大型的青少年腦發展追蹤研究，沒有發現和數位科技使用有關的劇烈變化（[[odgers-2024]], p. 29: "has found no evidence of drastic changes associated with digital-technology use"）
 
 ## 作者意見：禁止手機可能沒效
