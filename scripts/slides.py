@@ -34,6 +34,7 @@ DESIGN_RE = re.compile(r"^【([^｜】]+)(?:｜([^】]*))?】$")
 SECTION_RE = re.compile(r"^## 段落 (S\d+)｜(.+?)\s*$")
 SLIDE_HEAD_RE = re.compile(r"^## (slide-\d{2})｜(.+?)\s*$")
 EXCLUDED_SECTIONS = ("目前怎麼看", "相關但沒有直接測試的研究", "專家意見")
+NEGATIONS = ("不是", "不能", "沒有", "沒證據", "不等於", "不代表", "無法", "並非", "不一定")
 TITLE_MAX = 20
 BODY_MAX = 80
 SLIDES_MIN, SLIDES_MAX = 10, 15
@@ -161,6 +162,22 @@ def char_count(text: str) -> int:
     """正文字數：不含 [card-id]、[[wiki 連結]]、** 和空白。"""
     t = WLINK_RE.sub("", REF_RE.sub("", text)).replace("**", "")
     return len(re.sub(r"\s+", "", t))
+
+
+def load_banned(d: Path):
+    """讀 glossary.md「## 禁用詞」：回傳 [(詞, 否定句是否例外)]；沒有用詞表時回傳 None。"""
+    path = d / "glossary.md"
+    if not path.is_file():
+        return None
+    out, on = [], False
+    for ln in read(path).splitlines():
+        if ln.startswith("## "):
+            on = ln.strip() == "## 禁用詞"
+            continue
+        m = re.match(r"^- `([^`]+)`(.*)$", ln.strip()) if on else None
+        if m:
+            out.append((m.group(1), "否定句" in m.group(2)))
+    return out
 
 
 # ---------------------------------------------------------------- G1
@@ -307,7 +324,12 @@ def g4(d: Path) -> int:
     for cid in cards:
         if cid not in used:
             r.warn(f"卡片 `{cid}` 沒有被大綱用到")
-    r.note(f"頁數 {len(slides)}，使用卡片 {len(used)}/{len(cards)} 張")
+    banned = load_banned(d)
+    if banned is None:
+        r.err("沒有 glossary.md（用詞表）；G4 要同時產出用詞表")
+    elif not banned:
+        r.err("glossary.md 沒有「## 禁用詞」清單")
+    r.note(f"頁數 {len(slides)}，使用卡片 {len(used)}/{len(cards)} 張，禁用詞 {len(banned or [])} 個")
     return r.finish()
 
 
@@ -317,7 +339,17 @@ def g6(d: Path) -> int:
     cards = load_cards(d)
     slides = parse_outline(d)
     _, listed = parse_sources(d)
+    banned = load_banned(d)
+    if banned is None:
+        r.err("沒有 glossary.md，無法檢查禁用詞")
+        banned = []
     drafts = {p.stem: p for p in sorted((d / "drafts").glob("slide-*.md"))}
+    for sid, path in drafts.items():
+        title, lines = parse_draft(path)
+        for text in [title] + [t for _, t in lines]:
+            for word, neg_ok in banned:
+                if word in text and not (neg_ok and any(n in text for n in NEGATIONS)):
+                    r.err(f"{sid}：出現禁用詞「{word}」：「{plain(text)[:30]}」")
     for sid in slides:
         if sid not in drafts:
             r.err(f"{sid}：大綱有這一頁，但 drafts/ 沒有稿子")
