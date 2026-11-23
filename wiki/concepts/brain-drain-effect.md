@@ -32,7 +32,7 @@ en: brain drain effect
 
 ## 常見誤解
 
-- 它不是「手機成癮」的證據，研究對象是一般大學生。
+- 它不是「手機成癮」的證據，研究對象（study population）是一般大學生，見 [[study-population]]。
 - 效果很小，而且是在實驗室裡、單次測驗中觀察到的。
 - 作者也提醒，大腦到底是在「壓抑注意」還是「默默監控手機」，數據無法分辨（[[ward-2017]], p. 150: "our data cannot distinguish between the two theoretical explanations"）。
 

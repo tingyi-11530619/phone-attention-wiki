@@ -9,7 +9,7 @@
 
 ## 段落 S2｜手機只是放在旁邊，會影響腦力嗎？
 - 主張頁：[[phone-presence-reduces-cognition]]、[[phone-face-down-or-off]]
-- 其他頁：[[ward-2017]]、[[pileggi-2025]]、[[cognitive-capacity]]、[[sustained-attention]]、[[replication]]
+- 其他頁：[[ward-2017]]、[[pileggi-2025]]、[[cognitive-capacity]]、[[sustained-attention]]、[[replication]]、[[study-population]]
 
 ## 段落 S3｜常看短影音，注意力比較差嗎？
 - 主張頁：[[short-video-and-attention]]

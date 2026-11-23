@@ -30,7 +30,7 @@ n: 未載明
 - 【重複驗證】這是針對 [[ward-2017]] 的**概念性**重複驗證：目的相同，但做法不完全一樣（[[pileggi-2025]], Abstract: "The present study is a conceptual replication of the experiment by Ward and colleagues (2017)"）（僅根據摘要）
 - 【重複驗證】參與者先戒用手機 5 小時（[[pileggi-2025]], Abstract: "Participants were smartphone abstinent for 5 hours"）（僅根據摘要）
 - 【重複驗證】接著隨機分成兩組做認知作業：手機**關機放在旁邊**，或手機**放在另一個房間**（[[pileggi-2025]], Abstract: "one group performed the tasks while their smartphone was turned off next to them; the second group performed the tasks while their smartphone was in another room"）（僅根據摘要）
-- **研究對象、樣本數、用了哪些認知作業**：摘要都沒有寫。
+- **研究對象（study population）、樣本數、用了哪些認知作業**：摘要都沒有寫。見 [[study-population]]。
 
 ## 主要發現
 

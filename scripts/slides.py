@@ -371,7 +371,12 @@ CSS = """
 font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif}
 .slide{display:none;position:absolute;inset:0;padding:6vh 8vw;flex-direction:column;justify-content:center;overflow:hidden}
 .slide.active{display:flex}
-.slide h1{font-size:clamp(28px,5vw,56px);line-height:1.25;margin:0 0 4vh;color:var(--fg)}
+.slide h1{font-size:clamp(28px,5vw,56px);line-height:1.25;margin:0 0 4vh;color:var(--fg);text-wrap:balance}
+body.hide-refs .ref{display:none}
+.slide.sources h1{font-size:clamp(24px,3.6vw,40px);margin-bottom:3vh}
+.slide.sources ul{columns:2;column-gap:4vw}
+.slide.sources li{font-size:clamp(12px,1.35vw,17px);line-height:1.45;margin:0 0 .5vh;break-inside:avoid;padding-left:0}
+.slide.sources li::before{display:none}
 .slide.cover h1{font-size:clamp(34px,6.5vw,72px)}
 .slide ul{list-style:none;margin:0;padding:0}
 .slide li{font-size:clamp(18px,2.8vw,32px);line-height:1.55;margin:0 0 2.2vh;padding-left:1.1em;position:relative}
@@ -394,6 +399,7 @@ JS = """
     if(['ArrowRight','PageDown',' '].indexOf(e.key)>=0){show(i+1);e.preventDefault();}
     if(['ArrowLeft','PageUp'].indexOf(e.key)>=0){show(i-1);e.preventDefault();}
     if(e.key==='Home')show(0); if(e.key==='End')show(s.length-1);
+    if(e.key==='s'||e.key==='S'){document.body.classList.toggle('hide-refs');}
   });
   document.addEventListener('click',function(e){ if(e.target.closest('.ref'))return; show(e.clientX>innerWidth/2?i+1:i-1); });
   show(q.has('slide')?parseInt(q.get('slide'),10)-1:0);
@@ -426,6 +432,42 @@ def render_inline(text: str, cards) -> str:
     return "".join(out)
 
 
+SOURCES_TITLE = "資料來源"
+
+
+def source_label(slug: str, by_slug) -> str:
+    """從 wiki 來源頁的 H1 取「作者, 年份」，例如「（Ward 等人, 2017）」→「Ward 等人, 2017」。"""
+    p = by_slug.get(slug)
+    if p:
+        for ln in p.body.splitlines():
+            if ln.startswith("# "):
+                m = re.search(r"（([^（）]+)）\s*$", ln)
+                if m:
+                    return m.group(1)
+                break
+    return slug
+
+
+def sources_lines(cards) -> list[str]:
+    """「資料來源」頁的每一行：卡片 id → 作者、年份、頁碼。完全由 cards/ 和 wiki 來源頁產生。"""
+    _, by_slug = wiki_index()
+    out = []
+    for cid in sorted(cards):
+        parts = {}
+        for m in lint.CITE_RE.finditer(cards[cid]["cites"]):
+            slug, pos = m.group(1), m.group(2).strip()
+            parts.setdefault(slug, [])
+            if pos not in parts[slug]:
+                parts[slug].append(pos)
+        segs = []
+        for slug, poss in parts.items():
+            sp = by_slug.get(slug)
+            tail = "（僅摘要）" if sp and sp.meta.get("coverage") == "僅摘要" else ""
+            segs.append(f"{source_label(slug, by_slug)}, {'；'.join(poss)}{tail}")
+        out.append(f"[{cid}] " + "／".join(segs))
+    return out
+
+
 def render(d: Path) -> int:
     r = Result("G7 渲染")
     cards = load_cards(d)
@@ -455,13 +497,16 @@ def render(d: Path) -> int:
         if buf:
             html_body.append("<ul>" + "".join(buf) + "</ul>")
         parts.append(f'<section class="{cls}" data-slide="{path.stem}"><h1>{render_inline(title, cards)}</h1>{"".join(html_body)}</section>')
+    # 最後一頁「資料來源」：由腳本從 cards/ 自動產生，不由 AI 撰寫
+    lis = "".join(f"<li>{html.escape(x)}</li>" for x in sources_lines(cards))
+    parts.append(f'<section class="slide sources generated" data-slide="sources"><h1>{SOURCES_TITLE}</h1><ul>{lis}</ul></section>')
     doc = f"""<!doctype html>
 <html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(deck_title)}</title><style>{CSS}</style></head>
 <body>
 {chr(10).join(parts)}
 <div class="chrome" id="counter"></div>
-<div class="chrome hint">← → 翻頁</div>
+<div class="chrome hint">← → 翻頁　S 顯示／隱藏出處標記</div>
 <pre id="overflow-report" class="chrome"></pre>
 <script>{JS}</script>
 </body></html>
@@ -511,8 +556,20 @@ def g7(d: Path) -> int:
     p = DeckText()
     p.feed(read(d / "deck.html"))
     drafts = {x.stem: x for x in sorted((d / "drafts").glob("slide-*.md"))}
-    if set(p.slides) != set(drafts):
-        r.err(f"頁面不一致：deck 有 {sorted(set(p.slides) - set(drafts))}，drafts 有 {sorted(set(drafts) - set(p.slides))}")
+    deck_pages = set(p.slides) - {"sources"}
+    if deck_pages != set(drafts):
+        r.err(f"頁面不一致：deck 有 {sorted(deck_pages - set(drafts))}，drafts 有 {sorted(set(drafts) - deck_pages)}")
+    # 「資料來源」頁：和腳本從 cards/ 重新產生的內容逐字比對
+    want_src = [SOURCES_TITLE] + sources_lines(load_cards(d))
+    got_src = p.slides.get("sources")
+    if got_src is None:
+        r.err("deck.html 沒有「資料來源」頁")
+    elif got_src != want_src:
+        diff = next((k for k in range(max(len(want_src), len(got_src)))
+                     if (want_src[k] if k < len(want_src) else None) != (got_src[k] if k < len(got_src) else None)), 0)
+        r.err(f"「資料來源」頁和 cards/ 產生的內容不一致（第 {diff + 1} 行）")
+    else:
+        r.note(f"資料來源頁：{len(want_src) - 1} 張卡片，和 cards/ 產生的內容完全一致")
     for sid, path in drafts.items():
         title, lines = parse_draft(path)
         want = [plain(title)] + [plain(t) for _, t in lines]
@@ -572,7 +629,8 @@ def g8(d: Path) -> int:
                 r.note(f"{item['slide']}：沒有溢出")
     shots = d / "screenshots"
     shots.mkdir(exist_ok=True)
-    n = len(list((d / "drafts").glob("slide-*.md")))
+    # 頁數以 deck.html 實際的 section 數為準（含自動產生的「資料來源」頁）
+    n = len(re.findall(r'<section class="slide', read(d / "deck.html")))
     ok = 0
     for k in range(1, n + 1):
         target = shots / f"slide-{k:02d}.png"

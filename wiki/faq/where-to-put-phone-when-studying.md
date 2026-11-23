@@ -49,4 +49,4 @@ updated: 2026-11-23
 ## 相關頁面
 
 - 主張：[[phone-presence-reduces-cognition]]、[[phone-face-down-or-off]]、[[school-phone-bans]]
-- 概念：[[brain-drain-effect]]、[[sustained-attention]]、[[replication]]
+- 概念：[[brain-drain-effect]]、[[sustained-attention]]、[[replication]]、[[study-population]]

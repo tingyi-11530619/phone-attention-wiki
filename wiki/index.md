@@ -45,6 +45,7 @@ updated: 2026-11-23
 - [[correlation-vs-causation]]：相關不等於因果，「一起出現」不代表「誰造成誰」
 - [[replication]]：重複驗證，為什麼一篇研究不夠
 - [[meta-analysis]]：統合分析，把很多研究合在一起看
+- [[study-population]]：研究對象，結果適用於哪些人
 
 ## 人物、機構、量表（entities）
 

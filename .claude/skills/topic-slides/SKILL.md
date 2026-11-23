@@ -152,10 +152,14 @@ abstract_only: false
 
 `python scripts/slides.py render <dir>`：由腳本把 drafts 轉成單一 HTML 檔，**只做排版**，不改任何一個字。
 - 方向鍵（← →）、空白鍵、PageUp、PageDown 可以翻頁；右下角顯示頁碼
-- `[card-id]` 以小字顯示；滑鼠移到上面會顯示該卡片的出處
+- `[card-id]` 渲染成灰色小上標；滑鼠移到上面會顯示該卡片的出處；**按 S 鍵**可以切換顯示或隱藏
+- 標題用 CSS `text-wrap: balance` 平均換行。換行問題用排版處理，不改字
 - 頁碼、操作說明這類介面文字放在 `class="chrome"` 的元素裡，不算稿子內容
+- **最後一頁「資料來源」由腳本自動產生**，不由 AI 撰寫：每張卡片一行，格式是「[卡片 id] 作者, 年份, 頁碼」。作者和年份取自 wiki 來源頁 H1 的括號，頁碼取自卡片的出處；僅摘要的來源加上「（僅摘要）」。這一頁不算在 10–15 頁的規格內
 
-檢查：`python scripts/slides.py g7 <dir>`：逐頁比對 deck.html 的可見文字（排除 `.chrome`）和 drafts 是否**完全一致**。
+檢查：`python scripts/slides.py g7 <dir>`
+- 逐頁比對 deck.html 的可見文字（排除 `.chrome`）和 drafts 是否**完全一致**
+- 「資料來源」頁和腳本從 cards/ 重新產生的內容是否**完全一致**
 
 不可以手動修改 deck.html。如果要改字，回到 G5 改稿子，再重新渲染。
 
