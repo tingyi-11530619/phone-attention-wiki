@@ -112,6 +112,14 @@ def load_pages() -> list[Page]:
     return pages
 
 
+CODE_RE = re.compile(r"```.*?```|`[^`\n]*`", re.S)
+
+
+def strip_code(s: str) -> str:
+    """移除程式碼區塊和行內程式碼（裡面的 [[slug]] 是範例，不是連結）。保留換行，行號不變。"""
+    return CODE_RE.sub(lambda m: "\n" * m.group(0).count("\n"), s)
+
+
 # ---------------------------------------------------------------- 正規化
 PAGE_MARK_RE = re.compile(r"^=== page \d+ ===\s*$", re.M)
 
@@ -277,7 +285,7 @@ def check_format(pages, by_slug, rep: Report) -> None:  # 第 8 項
 def check_links(pages, by_slug, rep: Report) -> None:  # 第 5 項
     inbound = defaultdict(set)
     for p in pages:
-        for m in LINK_RE.finditer(p.body):
+        for m in LINK_RE.finditer(strip_code(p.body)):
             target = m.group(1).strip()
             if target not in by_slug:
                 rep.err(5, f"`{p.rel}`：斷鏈 `[[{target}]]`")
@@ -293,7 +301,7 @@ def check_index_log(pages, by_slug, rep: Report) -> None:  # 第 7 項
     if not index:
         rep.err(7, "找不到 `wiki/index.md`")
     else:
-        listed = {m.group(1).strip() for m in LINK_RE.finditer(index.body)}
+        listed = {m.group(1).strip() for m in LINK_RE.finditer(strip_code(index.body))}
         for p in pages:
             if p.slug not in SPECIAL and p.slug not in listed:
                 rep.err(7, f"`{p.rel}`：沒有列在 index.md")
@@ -359,6 +367,7 @@ def strip_for_numbers(line: str) -> str:
     line = CITE_RE.sub(" ", line)                      # 去掉引文、頁碼、slug
     line = LINK_RE.sub(" ", line)
     line = re.sub(r"\d{4}-\d{2}-\d{2}", " ", line)     # 日期
+    line = re.sub(r"\bpp?\.\s*\d+(?:\s*[–-]\s*\d+)?", " ", line)  # 內文提到的頁碼 p. 145、p. 140–154
     line = re.sub(r"^\s*(?:[-*]|\d+\.)\s+", " ", line)  # 清單編號
     return line
 

@@ -32,3 +32,16 @@ updated: 2026-11-23
   - 問題：pileggi-2025 的 PDF 只有封面和一頁摘要，沒有全文｜步驟：setup 讀取 raw/ 第一頁｜處理：coverage 標「僅摘要」，在 sources-list 註明，並告知使用者
   - 問題：odgers-2024 原文裡沒有 DOI｜步驟：setup 讀取 raw/｜處理：連結欄標「待補」，只寫原文可以確認的卷期和頁碼，不用記憶補 DOI
   - 問題：使用者列了 7 個名字，但只有 6 篇資料｜步驟：setup 讀取 raw/｜處理：使用者確認不用 ruiz-pardo-2022
+
+## [2026-11-23] ingest | ward-2017
+- 新增：[[ward-2017]]、[[phone-presence-reduces-cognition]]、[[phone-face-down-or-off]]、[[brain-drain-effect]]、[[working-memory]]、[[fluid-intelligence]]、[[sustained-attention]]、[[smartphone-dependence]]
+- 修改：[[index]]；`AGENTS.md` 和 `requirements.md` 新增 R5.4（`page_offset`、避開抽字錯誤的句子）；`scripts/lint.py`（修正兩個誤報）
+- I3 使用者決定：強調「翻面或關機沒用」「專注力沒受影響」「效果小、對象只有大學生」，並明確區分認知容量和專注力；頁碼用期刊頁碼；FAQ 等 pileggi-2025 之後再寫；省略 OSpan 和 Raven 的量表頁，改在概念頁說明
+- 檢查結果：
+  - 問題：抽字時符號被抽錯（`=` 變成 `5`、`×` 變成 `/C2`、`η²` 變成 `h2`、`−1 SD` 和 `+1 SD` 變成 `21SD` 和 `11 SD`），統計數字無法逐字引用｜步驟：I1 抽字｜處理：短引避開有符號錯誤的句子；有特殊符號的數字改用白話寫，例如「不到百分之三」；新增規則 R5.4
+  - 問題：PDF 頁碼（1–15）和期刊頁碼（p. 140–154）不一致｜步驟：I1 抽字｜處理：出處一律用期刊頁碼，來源頁加 `page_offset: 139`（期刊頁碼 = PDF 頁碼 + 139）
+  - 問題：論文提到的線上附錄不在 raw/ 裡｜步驟：I1 抽字｜處理：不引用附錄內容，並在來源頁的「限制」註明
+  - 問題：[[phone-face-down-or-off]] 的「目前怎麼看」轉述了作者的說法，但沒有附短引｜步驟：I4 寫頁（自我檢查）｜處理：補上 p. 150 的短引
+  - 問題：[[ward-2017]] 中「手機依賴」第一次出現時沒有附英文｜步驟：I4 寫頁（自我檢查）｜處理：補上（smartphone dependence）
+  - 問題：lint 把 log.md 裡行內程式碼中的 `[[slug]]` 範例當成斷鏈｜步驟：I5 自我檢查（腳本第 5 項誤報）｜處理：修改 lint.py，比對連結前先移除程式碼片段
+  - 問題：lint 把內文提到的頁碼（p. 140–154 等）當成需要核對的數據｜步驟：I5 自我檢查（腳本第 11 項誤報）｜處理：修改 lint.py，排除 `p. N` 和 `pp. N–M` 格式的頁碼
