@@ -52,7 +52,7 @@ Haidt 在書中主張，社群媒體和手機是青少年心理健康危機的�
 
 ## 作者意見：禁止手機可能沒效
 
-> **作者意見，文中未附證據。** 是否建立相關的主張頁，等學校手機政策的研究 ingest 時再決定。
+> **作者意見，文中未附證據。** 這個意見已經放進 [[school-phone-bans]] 的「專家意見（不算研究證據）」一節，沒有列為證據。
 
 作者認為，Haidt 提出的部分解決方法很合理，但依年齡限制或禁止手機這類做法，實務上可能沒效（[[odgers-2024]], p. 30: "age-based restrictions and bans on mobile devices, are unlikely to be effective in practice"），甚至可能適得其反（[[odgers-2024]], p. 30: "could backfire given what we know about adolescent behaviour"）。文中沒有說明這個判斷根據哪些研究。
 
@@ -75,6 +75,6 @@ Haidt 在書中主張，社群媒體和手機是青少年心理健康危機的�
 
 ## 相關頁面
 
-- 主張：[[phone-social-media-mental-health]]
+- 主張：[[phone-social-media-mental-health]]、[[school-phone-bans]]
 - 概念：[[correlation-vs-causation]]、[[meta-analysis]]
 - 相關來源：[[nguyen-2025]]、[[panova-2018]]

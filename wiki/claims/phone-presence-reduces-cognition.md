@@ -65,5 +65,5 @@ updated: 2026-11-23
 
 - 來源：[[ward-2017]]、[[pileggi-2025]]
 - 概念：[[brain-drain-effect]]、[[replication]]、[[working-memory]]、[[fluid-intelligence]]、[[sustained-attention]]、[[smartphone-dependence]]
-- 相關主張：[[phone-face-down-or-off]]、[[short-video-and-attention]]（不同的問題）
+- 相關主張：[[phone-face-down-or-off]]、[[short-video-and-attention]]（不同的問題）、[[school-phone-bans]]
 - 方法：[[correlation-vs-causation]]

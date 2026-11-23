@@ -1,7 +1,7 @@
 ---
 type: claim
 title: 手機和社群媒體是青少年心理健康問題的元兇嗎？
-sources: [odgers-2024, nguyen-2025, panova-2018]
+sources: [odgers-2024, nguyen-2025, panova-2018, goodyear-2025]
 origin: ingest
 updated: 2026-11-23
 ---
@@ -16,6 +16,7 @@ updated: 2026-11-23
 
 - 【統合分析｜青少年與成人 k=71 N=98,299】短影音用得越多，心理健康越差，作者描述為「弱（weak）」的相關，r = -.21（[[nguyen-2025]], Abstract: "Similarly, increased SFV use was associated with poorer mental health (weak mean effect size, r = -.21)"）（僅根據摘要）
 - 【評論】過度使用手機和焦慮、憂鬱、壓力、低自尊有關，這是相關研究的發現（[[panova-2018]], p. 256: "In correlational studies, overuse of the smartphone is associated with various mental health concerns, such as anxiety, depression, stress, and low self-esteem"）
+- 【相關性研究｜英國 12–15 歲中學生 N=1227】使用手機和社群媒體的時間越長，心理幸福感越低（[[goodyear-2025]], p. 8: "Increases in smartphone and social media time were associated with reduced mental wellbeing on a weekday, on a weekend day, and across a week"），焦慮和憂鬱越高（[[goodyear-2025]], p. 8: "Increases in smartphone and social media time were associated with increases in anxiety, depression and problematic social media use across all measurement periods"）。**作者自己表示，這是橫斷面研究，不能排除反向因果**（[[goodyear-2025]], p. 12: "the study design is cross sectional which makes it difficult to draw conclusions about causality and reverse causality cannot be ruled out"），也就是可能是心理狀態較差的青少年用得比較多。
 
 **注意：以上都是「有關聯」，不是「造成」。**
 
@@ -43,11 +44,12 @@ updated: 2026-11-23
 
 - **兩方的說法不完全衝突。** [[nguyen-2025]] 找到的是「弱的相關」；Odgers 說大部分研究是「沒有、很小或不一致的關聯」。兩者都同意有一些關聯，但都不足以支持「元兇」這麼強的說法。
 - **目前缺少的是因果證據。** 現有證據大多是相關研究，能說明「一起出現」，但不能說明「誰造成誰」。
-- **證據的類型要注意**：反對方的主要論點來自兩篇評論（[[odgers-2024]] 是書評，[[panova-2018]] 是立場性評論），它們引用的研究，wiki 大多沒有收錄；支持關聯的統合分析（[[nguyen-2025]]）只有摘要。整體來說，wiki 對這個問題的證據基礎還很薄。
+- **證據的類型要注意**：反對方的主要論點來自兩篇評論（[[odgers-2024]] 是書評，[[panova-2018]] 是立場性評論），它們引用的研究，wiki 大多沒有收錄；支持關聯的統合分析（[[nguyen-2025]]）只有摘要，[[goodyear-2025]] 有全文，但它是橫斷面研究，同樣只能說明「有關聯」。整體來說，wiki 對這個問題的證據基礎還很薄，**特別是缺少因果證據**。
+- 另外，[[goodyear-2025]] 也發現，學校限制手機並沒有讓學生的心理健康變好，見 [[school-phone-bans]]。
 - 對家長和老師比較有用的說法可能是：「手機和社群媒體**可能是**影響因素之一，但目前的研究不支持把它當成主要原因；青少年心理健康的成因很多，也很複雜。」
 
 ## 相關頁面
 
-- 來源：[[odgers-2024]]、[[nguyen-2025]]、[[panova-2018]]
-- 相關主張：[[is-smartphone-addiction-real]]、[[short-video-and-attention]]
+- 來源：[[odgers-2024]]、[[nguyen-2025]]、[[panova-2018]]、[[goodyear-2025]]
+- 相關主張：[[is-smartphone-addiction-real]]、[[short-video-and-attention]]、[[school-phone-bans]]
 - 概念：[[correlation-vs-causation]]、[[meta-analysis]]
