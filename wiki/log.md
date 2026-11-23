@@ -164,3 +164,12 @@ updated: 2026-11-23
   - 問題：4-A 新增的段落裡用了純文字的 goodyear-2025，年份會被當成數字｜步驟：L3 修正（自我檢查）｜處理：改成連結
   - 問題：新頁 cognitive-capacity 是孤兒頁、沒有列進 index、sources 漏列 pileggi-2025｜步驟：L1 腳本｜處理：直接修
   - 修正後重新執行：lint.py 0 錯誤、0 警告；check_odgers.py 35 句全部通過
+
+## [2026-11-23] write | slides-intro G1–G4
+- 新增：`.claude/skills/topic-slides/SKILL.md`（使用者指定的 G1–G8 流程，加上各關卡的檔案格式）、`scripts/slides.py`（g1、g2、g3、g4、g6、render、g7、g8 子指令，重用 lint.py 的比對函式）
+- 產出：`outputs/slides-intro/sources.md`（5 個段落，18 個 wiki 頁面）、`cards/c01–c28.md`、`outline.md`（15 頁）
+- 關卡結果：G1 通過；G2 通過（各段落的證據數：S1 12、S2 10、S3 3、S4 11、S5 4）；G3 通過（28 張卡片）；G4 腳本通過，等使用者確認大綱
+- 檢查結果：
+  - 問題：G3 反向測試（在 outputs/_g3test 放 5 種錯誤的卡片）時，「原文沒有的數字 37%」沒有被抓到，因為 ward-2017 的參考文獻裡剛好有「37」（期刊卷號）。lint.py 第 11 項也有同樣的漏洞｜步驟：G3 反向測試｜處理：修改 `lint.py` 的 source_text，從 REFERENCES 這類標題行開始到檔尾都不納入比對；重新測試後抓到了。wiki 的 lint 和 28 張卡片仍然通過。限制：odgers-2024 的參考文獻沒有標題，切不掉
+  - 問題：卡片的研究設計標籤原本規定要和 wiki 上同一行一致，但有些證據（例如主張頁表格裡「整體使用時間沒有差別」）所在的那一行沒有標籤｜步驟：設計 G3 檢查時｜處理：改成檢查標籤的設計類型要和來源頁 frontmatter 的 design 一致，數字（N、年齡）另外用 raw-text 核對
+  - 反向測試的資料夾 `outputs/_g3test/` 測完就刪除了

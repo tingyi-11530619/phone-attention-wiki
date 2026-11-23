@@ -163,6 +163,12 @@ def source_text(slug: str, pages_by_slug: dict) -> tuple[str, str, set] | None:
         _text_cache[slug] = None
         return None
     raw = path.read_text(encoding="utf-8-sig", errors="replace")
+    # 參考文獻不算原文：從「REFERENCES」這類標題行開始到檔尾都排除，
+    # 避免數字或短引剛好和參考文獻裡的卷號、頁碼相同而誤判為「找得到」。
+    # 限制：沒有標題、直接用編號列出參考文獻的來源（例如 odgers-2024）切不掉。
+    ref = re.search(r"(?m)^\s*(?:REFERENCES|References|Reference|Bibliography)\s*$", raw)
+    if ref:
+        raw = raw[: ref.start()]
     strict = normalize(raw)
     nums = {norm_num(m.group(0)) for m in NUM_RE.finditer(strict)}
     _text_cache[slug] = (strict, loose(raw), nums)
