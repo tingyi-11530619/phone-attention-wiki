@@ -1,7 +1,7 @@
 ---
 type: concept
 title: 手機依賴
-sources: [ward-2017]
+sources: [ward-2017, panova-2018]
 origin: ingest
 updated: 2026-11-23
 en: smartphone dependence
@@ -13,7 +13,7 @@ en: smartphone dependence
 
 手機依賴指的是「一個人在日常生活中有多仰賴手機」（[[ward-2017]], p. 143: "or the extent to which individuals rely on their phones in their everyday lives"）。例如「沒有手機，我很難度過平常的一天」。
 
-**本 wiki 刻意用「依賴」而不用「成癮」。** 「成癮」是醫學診斷用語，代表嚴重的身心傷害；「依賴」只描述仰賴的程度。兩者不應混用。
+**本 wiki 刻意用「依賴」而不用「成癮」。** 「成癮」是醫學上很嚴重的狀態，會對身心健康造成嚴重影響（[[panova-2018]], p. 252: "Addiction is a disorder with severe effects on physical and psychological health"）；「依賴」只描述仰賴的程度。兩者不應混用。也有研究者改用「自評的手機依賴」這類用詞，來取代「成癮」（[[panova-2018]], p. 256: "self-reported dependence on mobile phones"）。見 [[is-smartphone-addiction-real]]。
 
 ## 研究上怎麼測量
 
@@ -31,3 +31,4 @@ en: smartphone dependence
 ## 相關頁面
 
 - [[brain-drain-effect]]、[[phone-presence-reduces-cognition]]
+- [[problematic-smartphone-use]]、[[is-smartphone-addiction-real]]
